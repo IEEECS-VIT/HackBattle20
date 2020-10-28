@@ -10,9 +10,53 @@ body
     font-weight: 500;
     text-align: center;
     margin-top: 0.5%;
+    margin-bottom: 3%;
 }
 
 .section-inner
 {
     height: 100%;
+    position: relative;
+}
+
+
+.tilt-div
+{
+    position: relative;
+    z-index: 1;
+    margin-left: -10%;
+    /* padding-left: 5%; */
+    padding-top: 7%;
+    background: #EBF5FF;
+    height: 80%;
+    width: 120%;
+    transform: rotate(-8deg);
+}
+.content-div
+{
+    display: flex;
+    align-items: center;
+    /* border: solid 1px black; */
+    margin-top: 5%;
+    width: 60%;
+    /* text-align: center; */
+    height: 85%;
+    margin: auto;
+    transform: rotate(8deg);
+}
+.content-div p
+{
+    font-size: 22px;
+    width: 50%;
+    margin-left: 4%;
+}
+#about-placeholder
+{
+    width: 50%;
+}
+#placeholder-img
+{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
 }
