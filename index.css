@@ -126,12 +126,13 @@ body
     text-align: center;
     padding: 0 30px;
     line-height: 30px;
+    border: none;
     min-width: 185px;
     position: relative;
     z-index: 3;
     border-radius: 25px;
     background-color: #0F3C7A ;
-    box-shadow: 0 2px 2px #C1DDF7;
+    box-shadow: 0 4px 4px 2px #59D4FB;
     /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
 .home-text
