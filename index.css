@@ -150,4 +150,7 @@ body
 {
     font-size: 40px;
 }
+#fp-nav ul li a span{
+    background-color: #0F3C7A;
+}
 
