@@ -11,6 +11,7 @@ body
     text-align: center;
     margin-top: 0.5%;
     margin-bottom: 3%;
+    margin-left: -108px;
 }
 
 .section-inner
@@ -88,6 +89,13 @@ body
     width: 700px;
     margin-top: -800px;
 }
+.cloud-right{
+    position: absolute;
+    width:600px;
+    height: 500px;
+    margin-left: 61%;
+    margin-top: -132px;
+}
 #siteNav
 {
     width: 100%;
@@ -153,5 +161,13 @@ body
 }
 #fp-nav ul li a span{
     background-color: #0F3C7A;
+}
+.h-placeholder{
+    height: 8%;
+    width: 12%;
+    z-index: 1;
+    display:inline-block;
+    margin-left: 40%;
+    margin-top: -23px;
 }
 
