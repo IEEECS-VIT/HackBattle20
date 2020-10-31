@@ -86,12 +86,12 @@ body
     z-index: 2;
     /* position: absolute; */
     height: 550px;
-    width: 700px;
+    width: 800px;
     margin-top: -800px;
 }
 .cloud-right{
     position: absolute;
-    width:600px;
+    width:700px;
     height: 500px;
     margin-left: 61%;
     margin-top: -132px;
