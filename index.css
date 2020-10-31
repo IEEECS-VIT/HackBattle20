@@ -11,7 +11,13 @@ body
     text-align: center;
     margin-top: 0.5%;
     margin-bottom: 3%;
-    margin-left: -108px;
+    width: 100%;
+    background-image: url('assets/heading-placeholder.png');
+    background-repeat: no-repeat;
+    background-size: 300px, 100px; 
+    background-position: calc(50% - 110px) 50%;
+    /* background-position: -5% 0, center; */
+    /* margin-left: -108px; */
 }
 
 .section-inner
@@ -69,6 +75,7 @@ body
     /* position: absolute; */
     width: 1150px;
     height:690px;
+    max-height: 87vh;
     margin-right: 0%;
     margin-left: 25%;
     margin-top: -36.5%;
