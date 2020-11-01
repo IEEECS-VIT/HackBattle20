@@ -34,6 +34,7 @@ $(document).ready(function(){
         $("#day1").show();
         $("#day2").hide();
         $("#day3").hide();
+        
 
     });
     $("#d2").click(function(){
