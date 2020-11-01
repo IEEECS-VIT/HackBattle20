@@ -24,4 +24,8 @@ $(document).ready(function() {
     $('#faq-link').click(function(){
         $('#fp-nav ul li:nth-child(6) a').click();
     });
+    $('#sponsors-link').click(function(){
+        $('#fp-nav ul li:nth-child(7) a').click();
+    });
+    
 });
