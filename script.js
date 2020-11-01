@@ -6,9 +6,9 @@ $(document).ready(function() {
         navigation: true,
         navigationPosition: 'left',
     });
-    $('#home-link').click(function(){
-        $('#fp-nav ul li:nth-child(1) a').click();
-    });
+    // $('#home-link').click(function(){
+    //     $('#fp-nav ul li:nth-child(1) a').click();
+    // });
     $('#about-link').click(function(){
         $('#fp-nav ul li:nth-child(2) a').click();
     });
