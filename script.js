@@ -4,6 +4,7 @@ $(document).ready(function() {
         autoScrolling:true,
         sectionSelector: '.section',
         navigation: true,
+        navigationPosition: 'left',
     });
     $('#home-link').click(function(){
         $('#fp-nav ul li:nth-child(1) a').click();
