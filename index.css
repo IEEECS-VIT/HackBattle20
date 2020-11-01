@@ -296,3 +296,19 @@ hr{
 {
     font-size: 22px;
 }
+.github-logo-style
+{
+    width: 270px;
+    height: 100px;
+}
+.matic-logo-style
+{
+    width: 300px;
+    height: 72px;
+}
+.logoDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
