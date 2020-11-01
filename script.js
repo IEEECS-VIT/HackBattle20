@@ -29,3 +29,24 @@ $(document).ready(function() {
     });
     
 });
+$(document).ready(function(){
+    $("#d1").click(function(){
+        $("#day1").show();
+        $("#day2").hide();
+        $("#day3").hide();
+
+    });
+    $("#d2").click(function(){
+        $("#day2").show();
+        $("#day1").hide();
+        $("#day3").hide();
+
+    });
+    $("#d3").click(function(){
+        $("#day3").show();
+        $("#day2").hide();
+        $("#day1").hide();
+
+    });
+
+});
