@@ -210,6 +210,7 @@ h6{
     margin-left: 5% !important;
 }
 .daybutton{
+    transition: all 0.2s;
     margin-left: 8%;
     color: #ffffff !important;
     height: 50px;
@@ -226,6 +227,7 @@ h6{
     box-shadow: 0 4px 4px 2px #59D4FB;
 }
 .daybutton:hover, .daybutton:active{
+    transition: all 0.2s;
     background-color: #0F3C7A;
 }
 .sch{
