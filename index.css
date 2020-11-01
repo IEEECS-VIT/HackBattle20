@@ -185,7 +185,7 @@ body
     width: 30%;
     height: 3em !important;
     text-align: center;
-    margin-left: 12% !important;
+    margin-left: 16% !important;
     margin: 0.5%;
     display: inline-block;
 
@@ -205,5 +205,8 @@ body
 }
 h6{
     margin-top: 2.5%;
+}
+#ques1{
+    margin-left: 5% !important;
 }
 
