@@ -186,7 +186,7 @@ body
     height: 3em !important;
     text-align: center;
     margin-left: 12% !important;
-    margin: 1%;
+    margin: 0.5%;
     display: inline-block;
 
 }
@@ -201,7 +201,7 @@ body
     display: inline-block;
 } */
 .faq-div{
-    margin-top: 5%;
+    margin-top: 6.5%;
 }
 h6{
     margin-top: 2.5%;
