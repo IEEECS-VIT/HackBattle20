@@ -34,6 +34,9 @@ $(document).ready(function(){
         $("#day1").show();
         $("#day2").hide();
         $("#day3").hide();
+        $("#d1").addClass("active1");
+        $("#d2").removeClass("active1");
+        $("#d3").removeClass("active1");
         
 
     });
@@ -41,12 +44,18 @@ $(document).ready(function(){
         $("#day2").show();
         $("#day1").hide();
         $("#day3").hide();
+        $("#d2").addClass("active1");
+        $("#d1").removeClass("active1");
+        $("#d3").removeClass("active1");
 
     });
     $("#d3").click(function(){
         $("#day3").show();
         $("#day2").hide();
         $("#day1").hide();
+        $("#d3").addClass("active1");
+        $("#d1").removeClass("active1");
+        $("#d2").removeClass("active1");
 
     });
 
