@@ -31,9 +31,9 @@ $(document).ready(function() {
 });
 $(document).ready(function(){
     $("#d1").click(function(){
-        $("#day1").show();
-        $("#day2").hide();
-        $("#day3").hide();
+        $("#day1").fadeIn();
+        $("#day2").fadeOut();
+        $("#day3").fadeOut();
         $("#d1").addClass("active1");
         $("#d2").removeClass("active1");
         $("#d3").removeClass("active1");
@@ -41,18 +41,18 @@ $(document).ready(function(){
 
     });
     $("#d2").click(function(){
-        $("#day2").show();
-        $("#day1").hide();
-        $("#day3").hide();
+        $("#day1").fadeOut();
+        $("#day2").fadeIn();
+        $("#day3").fadeOut();
         $("#d2").addClass("active1");
         $("#d1").removeClass("active1");
         $("#d3").removeClass("active1");
 
     });
     $("#d3").click(function(){
-        $("#day3").show();
-        $("#day2").hide();
-        $("#day1").hide();
+        $("#day1").fadeOut();
+        $("#day2").fadeOut();
+        $("#day3").fadeIn();
         $("#d3").addClass("active1");
         $("#d1").removeClass("active1");
         $("#d2").removeClass("active1");

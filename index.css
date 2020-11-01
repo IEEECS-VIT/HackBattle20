@@ -251,6 +251,7 @@ hr{
 .timeline{
     width: 30%;
     margin-left: 2%;
+    /* margin-bottom: -3%; */
 }
 .full-cloud{
     height: 35%;
