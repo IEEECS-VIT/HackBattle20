@@ -149,7 +149,7 @@ body
 }
 .mobile-content-div p
 {
-    font-size: 16px;
+    font-size: 18px;
     /* width: 50%; */
     margin-top: 8%;
 }
@@ -160,8 +160,8 @@ body
 #mobile-about-placeholder
 {
     margin-top: 3%;
-    min-width: 270px !important;
-    min-height: 180px !important;
+    width: 270px;
+    height: 180px;
     border-radius: 20px;
 }
 #placeholder-img
