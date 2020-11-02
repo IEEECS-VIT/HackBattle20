@@ -86,7 +86,9 @@ body
 
 .mobile-section-inner
 {
+    margin-top: -20% !important;
     /* text-align: center; */
+    /* border: solid 1px black; */
     height: 80%;
 }
 
@@ -158,8 +160,8 @@ body
 #mobile-about-placeholder
 {
     margin-top: 3%;
-    width: 330px;
-    height: 220px;
+    width: 270px;
+    height: 180px;
     border-radius: 20px;
 }
 #placeholder-img
