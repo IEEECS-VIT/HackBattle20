@@ -291,6 +291,42 @@ body
     display: inline-block;
 
 }
+.mobile-ques{
+    background-color: #0F3C7A;
+    color: #ffffff;
+    width: 70%;
+    height: 3em !important;
+    text-align: center;
+    margin-left: 13% !important;
+    margin: 1%;
+    display: inline-block;
+    margin-top: 3% !important;
+
+}
+.mobile-faq-div{
+    flex-direction: column;
+    display: flex;
+    margin-top: 6.5%;
+    margin: auto;
+    margin-left: 3%;
+}
+@media (min-width:300px) and (max-width:330px){
+    .mobile-faq-div{
+        margin-top: 10% !important;
+    }
+    .mobile-ques{
+        height: 2.5em !important;
+        margin-top: 2%;
+    }
+}
+
+
+
+
+
+
+
+
 /* .ques1{
     background-color: #0F3C7A;
     color: #ffffff;
