@@ -6,9 +6,16 @@ $(document).ready(function() {
         navigation: true,
         navigationPosition: 'left',
     });
-    // $('#home-link').click(function(){
-    //     $('#fp-nav ul li:nth-child(1) a').click();
-    // });
+
+    if (window.innerWidth <= 920) {
+        $('#fp-nav').removeClass('left');
+        $('#fp-nav').addClass('right');
+    }
+    if (window.innerWidth > 920) {
+        $('#fp-nav').removeClass('right');
+        $('#fp-nav').addClass('left');
+    }
+
     $('#about-link').click(function(){
         $('#fp-nav ul li:nth-child(2) a').click();
     });
@@ -28,6 +35,16 @@ $(document).ready(function() {
         $('#fp-nav ul li:nth-child(8) a').click();
     });
     
+    window.onresize = function() {
+        if (window.innerWidth <= 920) {
+            $('#fp-nav').removeClass('left');
+            $('#fp-nav').addClass('right');
+        }
+        if (window.innerWidth > 920) {
+            $('#fp-nav').removeClass('right');
+            $('#fp-nav').addClass('left');
+        }
+    }
 });
 $(document).ready(function(){
     $("#day2").hide();

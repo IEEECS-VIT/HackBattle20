@@ -1,4 +1,22 @@
-@media only screen and (max-width: 700px) 
+@media only screen and (max-width: 1240px)
+{
+    .nav-link li
+    {
+        margin-left: 15px !important;
+    }
+
+} 
+@media only screen and (max-width: 1130px)
+{
+    .nav-link li
+    {
+        margin-left: -15px !important;
+    }
+} 
+
+
+
+@media only screen and (max-width: 920px) 
 {
     .section-inner
     {
@@ -9,7 +27,7 @@
         display: block;
     }
 }
-@media only screen and (min-width: 700px) 
+@media only screen and (min-width: 920px) 
 {
     .section-inner
     {
@@ -41,8 +59,22 @@ body
     background-size: 250px, 100px; 
     background-position: calc(50% - 80px) 50%;
     background-position-y: -15% !important;
-    /* background-position: -5% 0, center; */
-    /* margin-left: -108px; */
+}
+.mobile-section-header
+{
+    color: #0F3C7A;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    /* margin-top: 0.8%; */
+    margin-bottom: 6%;
+    width: 100%;
+    background-origin: content-box;
+    background-image: url('assets/heading-placeholder.png');
+    background-repeat: no-repeat;
+    background-size: 250px, 100px; 
+    background-position: calc(50% - 80px) 50%;
+    background-position-y: -15% !important;
 }
 
 
@@ -54,7 +86,8 @@ body
 
 .mobile-section-inner
 {
-    text-align: center;
+    /* text-align: center; */
+    height: 90%;
 }
 
 .tilt-div
@@ -66,6 +99,18 @@ body
     padding-top: 7%;
     background: #EBF5FF;
     height: 80%;
+    width: 120%;
+    transform: rotate(-8deg);
+}
+.mobile-tilt-div
+{
+    position: relative;
+    z-index: 1;
+    margin-left: -10%;
+    /* padding-left: 5%; */
+    padding-top: 7%;
+    background: #EBF5FF;
+    height: 90% !important;
     width: 120%;
     transform: rotate(-8deg);
 }
@@ -81,15 +126,40 @@ body
     margin: auto;
     transform: rotate(8deg);
 }
+.mobile-content-div
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid 1px black; */
+    margin-top: 5%;
+    width: 60%;
+    /* text-align: center; */
+    height: 85%;
+    margin: auto;
+    transform: rotate(8deg);
+}
 .content-div p
 {
     font-size: 22px;
     width: 50%;
     margin-left: 4%;
 }
+.mobile-content-div p
+{
+    font-size: 16px;
+    /* width: 50%; */
+    margin-top: 8%;
+}
 #about-placeholder
 {
     width: 50%;
+}
+#mobile-about-placeholder
+{
+    width: 330px;
+    height: 220px;
+    border-radius: 20px;
 }
 #placeholder-img
 {
@@ -194,7 +264,7 @@ body
 }
 .heading
 {
-    font-size: 40px;
+    font-size: 38px;
 }
 #fp-nav ul li a span{
     background-color: #0F3C7A;
