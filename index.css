@@ -468,3 +468,40 @@ hr{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.prizes-box
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F3C7A;
+    width: 25%;
+    height: 55%;
+    min-width: 300px;
+    color: white;
+    font-weight: 500;
+    font-size: 44px;
+    vertical-align: middle;
+}
+.prizes-content-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: row wrap;
+    /* border: solid 1px black; */
+    margin-top: 5% !important;
+    width: 70%;
+    /* text-align: center; */
+    height: 85%;
+    margin: auto;
+    transform: rotate(8deg);
+}
+.prize-box-laptop
+{
+    position: absolute;
+    top: -30%;
+    right: 4%;
+    height: 120px;
+    width: 100px;
+}
