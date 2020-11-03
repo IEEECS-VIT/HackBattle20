@@ -2,6 +2,7 @@
 {
     .rocket
     {
+        margin-left: 22% !important;
         margin-top: -38% !important;
     }
 }
@@ -9,6 +10,7 @@
 {
     .rocket
     {
+        margin-left: 13% !important;
         margin-top: -40% !important;
     }
     .nav-link li
@@ -22,6 +24,10 @@
     .nav-link li
     {
         margin-left: -15px !important;
+    }
+    .rocket
+    {
+        margin-left: 6% !important;
     }
 } 
 
