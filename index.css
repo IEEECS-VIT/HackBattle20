@@ -203,6 +203,13 @@ body
     margin-top: -33.5%;
     /* margin-top: 0%; */
 }
+.mobile-logo{
+    margin-right: 1%;
+    width: 200px;
+    height: 60px;
+    margin-top: 1%;
+    margin-left: 40px;
+}
 .logo
 {
     margin-right: 3%;
@@ -225,6 +232,16 @@ body
     margin-left: 61%;
     margin-top: -132px;
 }
+#mobile-sitenav{
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index:3;
+    flex-wrap: nowrap;
+    /* align-items: space-between; */
+    text-align: center;
+    padding-top: 1%;
+}
 #siteNav
 {
     width: 100%;
@@ -237,6 +254,7 @@ body
     padding-top: 2%;
     /* border: solid 1px black; */
 }
+
 .nav-link
 {
     list-style: none;
@@ -271,6 +289,17 @@ body
     background-color: #0F3C7A ;
     box-shadow: 0 4px 4px 2px #59D4FB;
     /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
+}
+.mobile-home-text{
+    flex-direction: column;
+    display: flex;
+    z-index: 2;
+    margin-top: 24%;
+    position: relative;
+    width: 35%;
+    height: 35%;
+    margin-left: 8%;
+    /* border: solid 1px black; */
 }
 .home-text
 {
@@ -506,4 +535,49 @@ hr{
     right: 4%;
     height: 120px;
     width: 100px;
+}
+#fp-nav span{
+    background-color: white !important;
+    border: 0.01rem solid black !important;
+    display: none;
+}
+.navbar{
+    height: 10vmax;
+    color: #696969;
+    
+}
+.navbar-brand {
+    box-shadow: 12px 6px;
+    letter-spacing: 0.3rem;
+    border-radius: 5px;
+    font-size: 25px !important;
+    margin-top: -5vmin;
+}
+.nav-link{
+    
+    font-size: 20px !important;
+}
+.nav-item:hover{
+    background-color: rgba(255,255,255,0.075);
+    border-radius: 5px;
+}
+@media (min-width: 576px) {
+    .navbar{
+        height: 9vmax;
+    }
+
+}
+
+.navbar-toggler{
+    background: transparent;
+    border: 1px solid black;
+}
+
+.navbar-toggler-icon{
+    color: black;
+    background: black;
+    height: 2px;
+    flex-direction: column;
+    display: flex;
+    margin: 5px;
 }
