@@ -272,6 +272,23 @@ body
     text-decoration: none;
     color:#696969;
 }
+.sub-button{
+    margin-left: 30%;
+    color: #ffffff !important;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 30px;
+    border: none;
+    min-width: 155px;
+    position: relative;
+    z-index: 3;
+    border-radius: 25px;
+    background-color: #0F3C7A ;
+    margin-bottom: 2%;
+    /* box-shadow: 0 4px 4px 2px #59D4FB; */
+}
 .regbutton 
 {
     margin-left: 8%;
@@ -367,13 +384,6 @@ body
         margin-top: 2%;
     }
 }
-
-
-
-
-
-
-
 
 /* .ques1{
     background-color: #0F3C7A;
@@ -536,7 +546,7 @@ hr{
     height: 120px;
     width: 100px;
 }
-#fp-nav span{
+/* #fp-nav span{
     background-color: white !important;
     border: 0.01rem solid black !important;
     display: none;
@@ -580,4 +590,43 @@ hr{
     flex-direction: column;
     display: flex;
     margin: 5px;
+} */
+.form-group{
+    border: 0.5px solid #696969;
+    margin-top: 2%;
+    width: 50%;
+    margin-left:3%;
+    padding: 10px;
+}
+.form-control{
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.label-form{
+    margin-left: 3%;
+    margin-bottom: 1px;
+}
+.email-div{
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 2px 2px #696969;
+    width: 30%;
+    border-radius: 20px;
+    /* margin-bottom: 1%; */
+    /* padding: 30px; */
+    
+
+}
+.contact-icon{
+    flex-direction: column;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius:20px;
+}
+.contact{
+    margin:2%;
+    margin-left: 15%;
+    /* margin-top: 4%; */
 }

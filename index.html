@@ -26,13 +26,14 @@
     <!-- Custom scripts and styles -->
     <link rel="stylesheet" href="./index.css">
     <script src="./script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
     <div id="fullpage">
         <div class="section active" id="home">
             <div class="mobile-section-inner">
-                <nav class="navbar navbar-expand-lg navbar-light bg">
+                <!-- <nav class="navbar navbar-expand-lg navbar-light bg">
                     <img class="navbar-brand"src="assets/hackbattle.png">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -64,7 +65,7 @@
                       </ul>
                       
                     </div>
-                  </nav>
+                  </nav> -->
                 <div class="mobile-home-text">
                     <p style="font-size: 30px;">A Place Where Your Crazy Idea Becomes Reality</p><br>
                     <p style="color:#696969; font-size: 20px;">28th - 30th November<br>Starts at 12:00 pm</p>
@@ -360,6 +361,39 @@
                         <img class="matic-logo-style" src="./assets/matic_logo.png" alt="matic logo">
                         <img class="matic-logo-style" src="./assets/matic_logo.png" alt="matic logo">
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="contact">
+            <div class="mobile-section-inner">Slide 9</div>
+            <div id="contact-inner" class="section-inner">
+                <p style="z-index:2; display:inline-block;" class="section-header">Contact Us</p>
+                <div style="display:inline-block;"class="email-div">
+                    <form method="post">
+                    <div class="form group">
+                        <label style="margin-top:2%;"class="label-form">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form group">
+                        <label class="label-form">Email</label>
+                        <input type="text" id="mail" class="form-control">
+                    </div>
+                    <div class="form group">
+                        <label  class="label-form">Message</label>
+                        <textarea style="margin-bottom:2%;"cols="30" rows="7" class="form-control"></textarea>
+                        <br>
+                        <!-- <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button> -->
+                        <input type="button" class="sub-button" value="Submit" onclick="sendEmail()">
+                        <br>
+                    </div>
+                </form>
+                </div>
+                <div class="contact" style="display: inline-block;">
+                    <img style="display:inline-block;"class="contact-icon" src="assets/VIT Vellore.svg">
+                    <h6 style="display:inline-block;">VIT Vellore</h6>
+                    <img class="contact-icon" src="assets/tele.svg">
+                    <img class="contact-icon" src="assets/email.svg">
+
                 </div>
             </div>
         </div>
