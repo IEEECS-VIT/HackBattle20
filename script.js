@@ -169,16 +169,16 @@ $('#dropdown04').on('show.bs.dropdown', function () {
   console.log('show');
 });
 function sendEmail(){
-    var n=document.getElementById("name").value;
+    // var n=document.getElementById("name").value;
     var e=document.getElementById("mail").value;
     //var p=document.getElementById("phone").value;
     // var s=document.getElementById("sub").value;
     var b=document.getElementById("body").value;
 Email.send({
-    SecureToken : "273b3bc2-5ba8-4867-8fa0-21bc88c5dbaa",
+    SecureToken : "4aeccc00-2be8-49a1-a721-645bdd2a8622",
     To : 'prernasultania2000@gmail.com',
-    From : "prerna@ieee.org",
-    // Subject : "This is the subject",
+    From : "vithack.crisis@gmail.com",
+    Subject : "This is the subject",
     Body : "--->Body: \n"+b+"\n"+"--->E-Mail: "+e
 }).then(
   message => alert("mail has been sent sucessfully")
