@@ -82,6 +82,39 @@ $(document).ready(function(){
     });
 
 });
+$(document).ready(function(){
+    $("#m-day2").hide();
+    $("#m-day3").hide();
+    $("#m-d1").click(function(){
+        $("#m-day1").fadeIn();
+        $("#m-day2").fadeOut();
+        $("#m-day3").fadeOut();
+        $("#m-d1").addClass("active1");
+        $("#m-d2").removeClass("active1");
+        $("#m-d3").removeClass("active1");
+        
+
+    });
+    $("#m-d2").click(function(){
+        $("#m-day1").fadeOut();
+        $("#m-day2").fadeIn();
+        $("#m-day3").fadeOut();
+        $("#m-d2").addClass("active1");
+        $("#m-d1").removeClass("active1");
+        $("#m-d3").removeClass("active1");
+
+    });
+    $("#m-d3").click(function(){
+        $("#m-day1").fadeOut();
+        $("#m-day2").fadeOut();
+        $("#m-day3").fadeIn();
+        $("#m-d3").addClass("active1");
+        $("#m-d1").removeClass("active1");
+        $("#m-d2").removeClass("active1");
+
+    });
+
+});
 // var burgerMenu = function() {
 
 //     $('body').on('click', '.js-fh5co-nav-toggle', function(event){
