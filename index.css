@@ -5,6 +5,10 @@
         margin-left: 22% !important;
         margin-top: -38% !important;
     }
+    .nav-link li
+    {
+        margin-left: 20px !important;
+    }
 }
 @media only screen and (max-width: 1240px)
 {
@@ -15,19 +19,44 @@
     }
     .nav-link li
     {
-        margin-left: 15px !important;
+        margin-left: 12px !important;
     }
 
 } 
-@media only screen and (max-width: 1130px)
+@media only screen and (max-width: 1150px)
 {
     .nav-link li
     {
-        margin-left: -15px !important;
+        margin-left: -5px !important;
     }
     .rocket
     {
         margin-left: 6% !important;
+    }
+    .prizes-content-div
+    {
+        transform: rotate(8deg);
+        flex-direction: column;
+        margin-top: -2% !important;
+        /* border: solid 1px black; */
+        height: 95% !important;
+    }
+    .prizes-box
+    {
+        transform: rotate(0deg) !important;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 36px !important;
+    }
+    .prize-box-laptop
+    {
+        width: 96px;
+        height: 80px;
+        top: -40% !important;
+    }
+    .mobile-prizes-content-div
+    {
+        display: flex !important;
     }
 } 
 
@@ -55,6 +84,14 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 700px)
+{
+    .mobile-prizes-content-div
+    {
+        margin-top: -5%;
+    }
+} 
 
 body
 {
@@ -264,8 +301,8 @@ body
 .nav-link li
 {
     display: inline;
-    padding:20px;
-    margin-left:30px;
+    padding:12px;
+    margin-left:25px;
 }
 .nav-link li a
 {
@@ -513,23 +550,29 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0F3C7A;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 2px #ccc;
+    border-radius: 14px;
     width: 25%;
     height: 55%;
     min-width: 300px;
-    color: white;
+    color:#0F3C7A;
     font-weight: 500;
     font-size: 44px;
     vertical-align: middle;
     transform: rotate(8deg);
 
 }
+.prizes-box:nth-child(2)
+{
+    background-color:#DFEEFB;    ;
+}
 .prizes-content-div
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex: row wrap;
+    flex-wrap: nowrap;
     /* border: solid 1px black; */
     /* margin-top: 5% !important; */
     width: 70%;
@@ -537,6 +580,56 @@ hr{
     height: 85%;
     margin: auto;
     /* transform: rotate(8deg); */
+}
+.mobile-prizes-content-div
+{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* border: solid 1px black; */
+    /* margin-top: 5% !important; */
+    width: 70%;
+    /* text-align: center; */
+    height: 95%;
+    margin: auto;
+    transform: rotate(8deg);
+}
+.mobile-prizes-box
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 2px #ccc;
+    border-radius: 14px;
+    width: 70%;
+    height: 45%;
+    min-height: 100px;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    min-width: 220px;
+    max-width: 300px !important;
+    color:#0F3C7A;
+    font-weight: 500;
+    font-size: 32px;
+    vertical-align: middle;
+    /* transform: rotate(8deg); */
+
+}
+.mobile-prize-box-laptop
+{
+    position: absolute;
+    top: -40%;
+    right: 3%;
+    height: 96px;
+    width: 80px;
+}
+.mobile-prizes-box:nth-child(2)
+{
+    background-color:#DFEEFB;    ;
 }
 .prize-box-laptop
 {
@@ -546,6 +639,13 @@ hr{
     height: 120px;
     width: 100px;
 }
+/* .prizes-background-dots
+{
+    position: absolute;
+    right: 15%;
+    width: 450px;
+    height: 290px;
+} */
 /* #fp-nav span{
     background-color: white !important;
     border: 0.01rem solid black !important;
