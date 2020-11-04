@@ -272,7 +272,7 @@ body
     text-decoration: none;
     color:#696969;
 }
-.sub-button{
+.sub-button, #body{
     margin-left: 30%;
     color: #ffffff !important;
     height: 50px;
