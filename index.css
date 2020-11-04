@@ -53,6 +53,17 @@
         width: 96px;
         height: 80px;
         top: -40% !important;
+        
+    }
+    .prize-back{
+        z-index: 1;
+        transform: rotate(0deg) !important;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* top: -40% !important; */
+
+        /* height: 5%;
+        width: 3%; */
     }
     .mobile-prizes-content-div
     {
@@ -741,7 +752,7 @@ hr{
 .email-div{
     margin-top: 2%;
     margin-left: 10%;
-    box-shadow: 1px 1px 2px 2px #696969;
+    box-shadow: 0px 2px 2px 2px #ccc;
     width: 30%;
     border-radius: 20px;
     /* margin-bottom: 1%; */
