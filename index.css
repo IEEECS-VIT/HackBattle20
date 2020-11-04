@@ -470,7 +470,25 @@ h6{
     background-color: #84B4FE;
     box-shadow: 0 4px 4px 2px #59D4FB;
 }
-.daybutton:hover, .daybutton:active{
+.daybutton-mobile{
+    transition: all 0.2s;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #ffffff !important;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 30px;
+    border: none;
+    width: 120px;
+    position: relative;
+    z-index: 3;
+    border-radius: 25px;
+    background-color: #84B4FE;
+    box-shadow: 0 4px 4px 2px #59D4FB;
+}
+.daybutton:hover, .daybutton:active, .daybutton-mobile:hover, .daybutton-mobile:active{
     transition: all 0.2s;
     background-color: #0F3C7A;
 }
@@ -480,8 +498,18 @@ h6{
     text-align: center;
     width: 90%;
 }
+.sch-text-mobile{
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 2% !important;
+}
 .time{
     margin-left: 30%;
+    color: #696969;
+}
+.time-mobile{
+    margin-left: 20%;
     color: #696969;
 }
 hr{
@@ -489,11 +517,60 @@ hr{
     border-top: none;
     border-bottom: 1px solid black;
 }
+@media (max-width:900px){
+    hr{
+        width:70%;
+        border-bottom: 1px solid black;
+
+    }
+}
 /* #para{
     margin-left: 30%;
 } */
+@media (min-width:600px) and (max-width:700px){
+    .daybutton-mobile{
+        width:100px !important;
+        height: 40px;
+    }
+    .sch-text-mobile{
+        height: 90%;
+    }
+}
+@media (max-width:540px){
+    .daybutton-mobile{
+        width: 80px !important;
+        height: 30px !important;
+        font-size: 12px;
+        margin-left: 1%;
+        padding: 2px;
+    }
+    .timeline-mobile{
+        font-size:12px;
+    }
+    .time-mobile{
+        font-size:14px;
+    }
+}
+@media(max-width:325px){
+    .timeline-mobile{
+        font-size:8px;
+    }
+    .time-mobile{
+        font-size: 13px;
+    }
+    .daybutton-mobile{
+        width: 50px !important;
+        height: 20px !important;
+        font-size: 8px;
+        margin-left: 1%;
+        padding: 0px !important;
+    }
+}
 .schedule-div{
     margin-top: 5%;
+}
+.schedule-div-mobile{
+    margin-top: 7%;
 }
 #schedule-wrapper
 {
@@ -509,6 +586,10 @@ hr{
     width: 30%;
     margin-left: 2%;
     /* margin-bottom: -3%; */
+}
+.timeline-mobile{
+    width: 60%;
+    margin-left: 20%;
 }
 .full-cloud{
     height: 35%;
