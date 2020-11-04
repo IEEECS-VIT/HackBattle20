@@ -443,7 +443,8 @@ h6{
 }
 .daybutton{
     transition: all 0.2s;
-    margin-left: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
     color: #ffffff !important;
     height: 50px;
     font-size: 20px;
@@ -451,11 +452,11 @@ h6{
     padding: 0 30px;
     line-height: 30px;
     border: none;
-    min-width: 165px;
+    min-width: 150px;
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background-color: #84B4FE ;
+    background-color: #84B4FE;
     box-shadow: 0 4px 4px 2px #59D4FB;
 }
 .daybutton:hover, .daybutton:active{
@@ -463,7 +464,10 @@ h6{
     background-color: #0F3C7A;
 }
 .sch{
-    margin-left:20%;
+    /* margin-left:20%; */
+    margin: auto;
+    text-align: center;
+    width: 90%;
 }
 .time{
     margin-left: 30%;
@@ -479,6 +483,16 @@ hr{
 } */
 .schedule-div{
     margin-top: 5%;
+}
+#schedule-wrapper
+{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto !important;
+    width: 80%; 
+    /* border: solid 1px black; */
 }
 .timeline{
     width: 30%;
