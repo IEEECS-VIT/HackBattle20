@@ -552,6 +552,23 @@ hr{
     width: 300px;
     height: 72px;
 }
+.mobile-github-logo-style
+{
+    width: 175.5px;
+    height: 65px;
+}
+.mobile-matic-logo-style
+{
+    width: 175px;
+    height: 40px;
+}
+.mobile-logoDiv
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .logoDiv
 {
     display: flex;
