@@ -379,6 +379,9 @@ body {
   .contact-head {
     font-size: 12px;
   }
+  .email-div-mobile {
+    width: 75% !important;
+  }
 }
 .regbutton {
   margin-left: 8%;
@@ -887,7 +890,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20% !important;
+  margin-left: 16% !important;
   /* margin-top: 2%; */
   /* border: solid 1px black; */
   width: 30%;
@@ -897,11 +900,12 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20% !important;
-  /* margin-top: 2%; */
+  margin: auto;
+  /* margin-left: 20% !important; */
+  margin-top: 2% !important;
   /* border: solid 1px black; */
   /* margin: auto !important; */
-  width: 40%;
+  width: 80%;
   min-height: 30vh;
 }
 #contact-wrapper {
@@ -918,16 +922,18 @@ hr {
   /* flex-direction: row; */
   align-items: center;
   margin: auto;
-  max-height: 85%;
-  width: 90%;
+  max-height: 90%;
+  width: 95%;
   /* border: solid 1px black; */
 }
 .contact-line {
   display: flex;
-  /* border: solid 1px black; */
+  /* border: solid 1px red; */
   margin-bottom: 5%;
-  align-items: center;
+  align-items: flex-start;
+  /* vertical-align: middle; */
 }
+
 .contact-logo {
   flex-direction: column;
   display: flex;
@@ -944,10 +950,12 @@ hr {
 .contact-head {
   display: inline-block;
   margin-left: 3%;
+  margin-top: 2%;
   font-size: 25px;
 }
 .contact-head-mobile {
   display: inline-block;
   margin-left: 3%;
-  font-size: 12px;
+  margin-top: 0.5%;
+  font-size: 18px;
 }
