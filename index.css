@@ -21,6 +21,21 @@
     {
         margin-left: 12px !important;
     }
+    .track-text
+    {
+        font-size: 20px !important;
+    }
+    .track-image-left
+    {
+        width: 360px !important;
+        height: 243px !important;
+    }
+    .track-image-right
+    {
+        width: 360px !important;
+        height: 243px !important;
+    }
+    
 
 } 
 @media only screen and (max-width: 1150px)
@@ -69,8 +84,18 @@
     {
         display: flex !important;
     }
+    .track-text
+    {
+        font-size: 18px !important;
+    }
 } 
-
+@media only screen and (max-width: 1000px)
+{
+    .track-text
+    {
+        font-size: 16px !important;
+    }
+} 
 
 
 @media only screen and (max-width: 920px) 
