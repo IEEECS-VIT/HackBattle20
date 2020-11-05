@@ -81,7 +81,7 @@ $(document).ready(function () {
   $("#m-day2").hide();
   $("#m-day3").hide();
   $("#m-d1").click(function () {
-    $("#m-day1").fadeIn();
+    $("#m-day1").delay(200).fadeIn();
     $("#m-day2").fadeOut();
     $("#m-day3").fadeOut();
     $("#m-d1").addClass("active1");
@@ -90,7 +90,7 @@ $(document).ready(function () {
   });
   $("#m-d2").click(function () {
     $("#m-day1").fadeOut();
-    $("#m-day2").fadeIn();
+    $("#m-day2").delay(200).fadeIn();
     $("#m-day3").fadeOut();
     $("#m-d2").addClass("active1");
     $("#m-d1").removeClass("active1");
@@ -99,7 +99,7 @@ $(document).ready(function () {
   $("#m-d3").click(function () {
     $("#m-day1").fadeOut();
     $("#m-day2").fadeOut();
-    $("#m-day3").fadeIn();
+    $("#m-day3").delay(200).fadeIn();
     $("#m-d3").addClass("active1");
     $("#m-d1").removeClass("active1");
     $("#m-d2").removeClass("active1");
