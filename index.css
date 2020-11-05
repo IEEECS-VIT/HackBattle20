@@ -387,12 +387,28 @@ body
         margin-left: 30%;
     }
 }
+@media only screen and (max-width:500px) and (min-width:400px){
+    .sub-button-mobile{
+        margin-left: 27%;
+    }
+}
 @media only screen and (max-width:950px) and (min-width:501px){
     .sub-button-mobile{
         margin-left: 30%;
     }
     .contact-head-mobile{
         font-size: 17px;
+    }
+}
+@media only screen and (min-width:310px) and (max-width:400px){
+    .icons-contact-mobile{
+        min-height: 25px;
+    }
+    .sub-button-mobile{
+        margin-left: 22%;
+    }
+    .textarea{
+        height: 40px !important;
     }
 }
 @media only screen and (max-width:1000px) and (min-width:900px){
