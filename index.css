@@ -238,7 +238,7 @@ body {
   max-height: 87vh;
   margin-right: 2%;
   margin-left: -60%;
-  margin-top: 27%;
+  margin-top: -48%;
   /* margin-top: 0%; */
 }
 @media only screen and (min-width:724px) and (max-width:850px){
@@ -251,7 +251,7 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -74%;
-  margin-top: 27%;
+  margin-top: -37%;
   /* margin-top: 0%; */
     }
     
@@ -266,7 +266,7 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -90%;
-  margin-top: 27%;
+  margin-top: -37%;
   /* margin-top: 0%; */
     }
     
@@ -281,7 +281,7 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -119%;
-  margin-top: 27%;
+  margin-top: -79%;
   /* margin-top: 0%; */
     }
     
@@ -296,7 +296,7 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -128%;
-  margin-top: 27%;
+  margin-top: -76%;
   /* margin-top: 0%; */
     }
     
@@ -306,17 +306,17 @@ body {
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1224px;
+  width: 1188px;
   height: 1016px;
   max-height: 87vh;
   margin-right: 15%;
-  margin-left: -139%;
-  margin-top: 27%;
+  margin-left: -127%;
+  margin-top: -114%;
   /* margin-top: 0%; */
     }
     
 }
-@media only screen and (max-width:376px) and (min-width:314px){
+@media only screen and (max-width:376px) and (min-width:321px){
     .rocket-mobile{
         position: relative;
   z-index: 1;
@@ -325,8 +325,23 @@ body {
   height: 1016px;
   max-height: 87vh;
   margin-right: 15%;
-  margin-left: -127%;
-  margin-top: 27%;
+  margin-left: -129%;
+  margin-top: -125%;
+  /* margin-top: 0%; */
+    }
+    
+}
+@media only screen and (max-width:320px) and (min-width:314px){
+    .rocket-mobile{
+        position: relative;
+  z-index: 1;
+  /* position: absolute; */
+  width: 1024px;
+  height: 1016px;
+  max-height: 87vh;
+  margin-right: 15%;
+  margin-left: -151%;
+  margin-top: -148%;
   /* margin-top: 0%; */
     }
     
@@ -340,8 +355,8 @@ body {
   height: 1016px;
   max-height: 87vh;
   margin-right: 15%;
-  margin-left: -112%;
-  margin-top: 27%;
+  margin-left: -118%;
+  margin-top: -123%;
   /* margin-top: 0%; */
     }
     
@@ -351,12 +366,12 @@ body {
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1000px;
+  width: 1188px;
   height: 1016px;
   max-height: 87vh;
   margin-right: 15%;
-  margin-left: -102%;
-  margin-top: 27%;
+  margin-left: -127%;
+  margin-top: -106%;
   /* margin-top: 0%; */
     }
     
