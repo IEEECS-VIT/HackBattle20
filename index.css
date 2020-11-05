@@ -869,7 +869,8 @@ hr{
 .icons-contact{
     display:flex;
     margin-left: 15% !important;
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    width: 30%;
 }
 .contact-logo{
     flex-direction: column;
