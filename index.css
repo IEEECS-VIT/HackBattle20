@@ -868,9 +868,30 @@ hr{
 }
 .icons-contact{
     display:flex;
-    margin-left: 15% !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8% !important;
     /* margin-top: 2%; */
+    /* border: solid 1px black; */
     width: 30%;
+    min-height: 60vh;
+}
+#contact-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    max-height: 85%;
+    width: 90%;
+    /* border: solid 1px black; */
+}
+.contact-line
+{
+    display: flex;
+    /* border: solid 1px black; */
+    margin-bottom: 5%;
+    align-items: center;
 }
 .contact-logo{
     flex-direction: column;

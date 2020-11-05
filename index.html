@@ -491,46 +491,47 @@
             <div class="mobile-section-inner">Slide 9</div>
             <div id="contact-inner" class="section-inner">
                 <p style="z-index:2; display:inline-block;" class="section-header">Contact Us</p>
-                <div style="display:inline-block;"class="email-div">
-                    <form method="post">
-                    <div class="form group">
-                        <label style="margin-top:2%;"class="label-form">Name</label>
-                        <input type="text" class="form-control">
+                <div id="contact-wrapper">
+                    <div class="email-div">
+                        <form method="post">
+                            <div class="form group">
+                                <label style="margin-top:2%;"class="label-form">Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form group">
+                                <label class="label-form">Email</label>
+                                <input type="text" id="mail" class="form-control">
+                            </div>
+                            <div class="form group">
+                                <label  class="label-form">Message</label>
+                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control"></textarea>
+                                <br>
+                                <!-- <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button> -->
+                                <input type="button"  class="sub-button" value="Submit" onclick="sendEmail()">
+                                <br>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form group">
-                        <label class="label-form">Email</label>
-                        <input type="text" id="mail" class="form-control">
-                    </div>
-                    <div class="form group">
-                        <label  class="label-form">Message</label>
-                        <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control"></textarea>
-                        <br>
-                        <!-- <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button> -->
-                        <input type="button"  class="sub-button" value="Submit" onclick="sendEmail()">
-                        <br>
-                    </div>
-                </form>
-                </div>
-                <div style="display:inline-block;"class="icons-contact">
-                    <div style="margin-top: 10%;">
-                        <!-- <div class="contact-head"style="display:inline-block;">VIT Vellore</div> -->
-                        <img style="display:inline-block; width:60px; height: 60px; "src="assets/loc.png">
-                        <p style="display:inline-block; margin-left: 2%;">VIT Vellore</p>
+                    <div class="icons-contact">
+                        <div class="contact-line">
+                            <!-- <div class="contact-head"style="display:inline-block;">VIT Vellore</div> -->
+                            <img style="display:inline-block; width:60px; height: 60px; "src="assets/loc.png">
+                            <p style="display:inline-block; margin-left: 2%;">VIT Vellore</p>
                         </div>
-                        <!-- <img class="contact-logo"src="assets/mail.png">
-                        <img class="contact-logo"src="assets/telephone.png"> -->
-                        <div style="margin-top: 10%;">
+                            <!-- <img class="contact-logo"src="assets/mail.png">
+                            <img class="contact-logo"src="assets/telephone.png"> -->
+                        <div class="contact-line">
                             <!-- <div class="contact-head"style="display:inline-block;">VIT Vellore</div> -->
                             <img style="display:inline-block; width:60px; height: 60px;"src="assets/mail.png">
                             <p style="display:inline-block; margin-left: 2%;">ieeecs.vit@gmail.com</p>
                         </div>
-                        <div style="margin-top: 10%;">
-                                <!-- <div class="contact-head"style="display:inline-block;">VIT Vellore</div> -->
+                        <div class="contact-line">
+                            <!-- <div class="contact-head"style="display:inline-block;">VIT Vellore</div> -->
                             <img style="display:inline-block; width:60px; height: 60px;"src="assets/telephone.png">
                             <p style="display:inline-block; margin-left: 2%;">9191919100</p>
+                        </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
