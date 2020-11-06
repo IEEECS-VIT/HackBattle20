@@ -943,7 +943,7 @@ hr {
 @media only screen and (min-width:320px) and (max-width:400px){
     .track-image-mobile{
         margin-left: 2%;
-        max-height: 160px;
+        max-height: 150px;
         max-width: 450px;
 
     }
