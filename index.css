@@ -292,7 +292,13 @@ body {
     }
     
 }
-
+@media only screen and (max-width:850px) and (min-width:724px){
+    
+    .logo-mobile{
+        margin-top:-59% !important;
+    }
+    
+}
 
 @media only screen and (max-width:500px) and (min-width:440px){
     
@@ -316,6 +322,9 @@ body {
         margin-top: 73% !important;
         min-width:130px !important;
     }
+    .logo-mobile{
+        margin-top: -59% !important;
+    }
     
 }
 
@@ -325,6 +334,10 @@ body {
         margin-top: 141% !important;
         /* margin-left: 5% !important; */
         width: 5% !important;
+    }
+    .logo-mobile{
+        height:40px !important;
+        width: 131px !important;
     }
     
 }
@@ -364,7 +377,7 @@ body {
 .logo-mobile{
     /* margin-right: 3%; */
   width: 150px;
-  height: 40px;
+  height: 50px;
   z-index:4;
   margin-top: -51%;
 }
@@ -1270,6 +1283,11 @@ hr {
   /* border: solid 1px black; */
   border: none;
   z-index: 2;
+}
+@media only screen and (min-width:920px){
+    .hamburger{
+        display: none !important;
+    }
 }
 
 /* .openbtn:hover {
