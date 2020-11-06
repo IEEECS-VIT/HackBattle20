@@ -36,15 +36,15 @@
   }
   .prizes-content-div {
     transform: rotate(8deg);
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: -2% !important;
     /* border: solid 1px black; */
     height: 95% !important;
   }
   .prizes-box {
     transform: rotate(0deg) !important;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
     font-size: 36px !important;
   }
   .prize-box-laptop {
@@ -81,6 +81,11 @@
   }
   .mobile-section-inner {
     display: block;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .mobile-prize-box-laptop{
+    top: -22% !important;
   }
 }
 @media only screen and (min-width: 920px) {
@@ -981,18 +986,18 @@ hr {
   position: absolute;
   top: -40%;
   right: 3%;
-  height: 96px;
-  width: 80px;
+  height: 54px;
+  width: 45px;
 }
 .mobile-prizes-box:nth-child(2) {
   background-color: #dfeefb;
 }
 .prize-box-laptop {
   position: absolute;
-  top: -30%;
+  top: -26%;
   right: 4%;
-  height: 120px;
-  width: 100px;
+  height: 72px;
+  width: 60px;
 }
 /* .prizes-background-dots
 {
