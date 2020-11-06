@@ -110,9 +110,14 @@
   }
   #fullpage
   {
-    margin-top: -8%;
+    margin-top: -7%;
   }
   #site-footer
+  {
+    display: none !important;
+    height: 0 !important;
+  }
+  #fp-nav ul li:nth-child(10) a
   {
     display: none !important;
   }
