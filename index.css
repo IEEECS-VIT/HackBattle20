@@ -136,6 +136,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+#fullpage
+{
+  margin-top: -5%;
+}
 
 .section-header {
   position: relative;
@@ -828,6 +832,7 @@ hr {
 .track-div-mobile {
     /* border: solid 1px black; */
     /* display: flex; */
+    margin-top: -6% !important;
     align-items: center;
     width: 70%;
     margin: auto;
