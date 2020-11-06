@@ -104,6 +104,10 @@
   {
     display: flex;
   }
+  #fullpage
+  {
+    margin-top: -5%;
+  }
 }
 @media only screen and (max-width: 630px) {
   .mobile-prize-box-laptop{
@@ -135,10 +139,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-}
-#fullpage
-{
-  margin-top: -5%;
 }
 
 .section-header {
