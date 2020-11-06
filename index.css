@@ -361,6 +361,13 @@ body {
   width: 200px;
   height: 60px;
 }
+.logo-mobile{
+    /* margin-right: 3%; */
+  width: 150px;
+  height: 40px;
+  z-index:4;
+  margin-top: -51%;
+}
 .cloud {
   position: relative;
   z-index: 2;
@@ -1262,6 +1269,7 @@ hr {
   padding: 10px 15px;
   /* border: solid 1px black; */
   border: none;
+  z-index: 2;
 }
 
 /* .openbtn:hover {
