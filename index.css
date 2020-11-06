@@ -238,31 +238,9 @@ body {
   margin-top: -33.5%;
   /* margin-top: 0%; */
 }
-.rocket-mobile{
-  position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1699px;
-  width: 1089px;
-  max-height: 87vh;
-  margin-right: 2%;
-  margin-left: -10%;
-  margin-top: -18%;
-  /* margin-top: 0%; */
-}
+
 @media only screen and (min-width:724px) and (max-width:850px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1599px;
-  width: 1025px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -17%;
-  margin-top: -40%;
-  /* margin-top: 0%; */
-    }
+    
     .regbutton-mobile{
         margin-top: 60% !important;
     }
@@ -271,139 +249,31 @@ body {
     }
     
 }
-@media only screen and (max-width:724px) and (min-width:644px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1599px;
-  width: 1025px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -30%;
-  margin-top: -27%;
-  /* margin-top: 0%; */
-    }
-    
-}
-@media only screen and (max-width:644px) and (min-width:600px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1644px;
-  width: 1054px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -42%;
-  margin-top: -25%;
-  /* margin-top: 0%; */
-    }
-    
-}
-@media only screen and (max-width:600px) and (min-width:548px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1624px;
-  width: 1046px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -56%;
-  margin-top: -26%;
-  /* margin-top: 0%; */
-    }
-    
-}
+
+
 @media only screen and (max-width:548px) and (min-width:440px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1188px;
-  width: 1016px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -75%;
-  margin-top: -25%;
-  /* margin-top: 0%; */
-    }
+    
     .regbutton-mobile{
         margin-top: 78% !important;
         min-width:130px !important;
     }
     
 }
-@media only screen and (max-width:385px) and (min-width:321px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  height: 1024px;
-  width: 1016px;
-  max-height: 87vh;
-  margin-right: 15%;
-  margin-left: -119%;
-  margin-top: -65%;
-  /* margin-top: 0%; */
-    }
-    
-}
+
 @media only screen and (max-width:320px) and (min-width:314px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  width: 1024px;
-  height: 1016px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -151%;
-  margin-top: -94%;
-  /* margin-top: 0%; */
-    }
     .regbutton-mobile{
         min-width: 120px !important;
     }
     
 }
 @media only screen and (max-width:440px) and (min-width:385px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  /* position: absolute; */
-  width: 1000px;
-  height: 1296px;
-  max-height: 77vh;
-  margin-right: 15%;
-  margin-left: -95%;
-  margin-top: -73%;
-  /* margin-top: 0%; */
-    }
     .regbutton-mobile{
         margin-top: 85%  !important;
         min-width: 125px !important;
     }
     
 }
-/* @media only screen and (max-width:414px) and (min-width:411px){
-    .rocket-mobile{
-        position: relative;
-  z-index: 1;
-  width: 1188px;
-  height: 1016px;
-  max-height: 87vh;
-  margin-right: 15%;
-  margin-left: -127%;
-  margin-top: -76%;
-    }
-    .regbutton-mobile{
-        margin-top:76% !important;
-        min-width: 125px !important;
-    }
-     */
-}
+
 
 .mobile-logo {
   margin-right: 1%;
