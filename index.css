@@ -255,14 +255,43 @@ body {
     .home-text-mobile{
         margin-top: 36% !important;
     }
+    .regbutton{
+        margin-top: 60% !important;
+    }
+    
+}
+@media only screen and (min-width:850px){
+    
+    .regbutton-mobile{
+        margin-top: 60% !important;
+    }
+    .home-text-mobile{
+        margin-top: 36% !important;
+    }
     
 }
 
 
-@media only screen and (max-width:548px) and (min-width:440px){
+@media only screen and (max-width:500px) and (min-width:440px){
     
     .regbutton-mobile{
-        margin-top: 78% !important;
+        margin-top: 94% !important;
+        min-width:130px !important;
+    }
+    
+}
+@media only screen and (max-width:548px) and (min-width:500px){
+    
+    .regbutton-mobile{
+        margin-top: 84% !important;
+        min-width:130px !important;
+    }
+    
+}
+@media only screen and (max-width:724px) and (min-width:548px){
+    
+    .regbutton-mobile{
+        margin-top: 73% !important;
         min-width:130px !important;
     }
     
@@ -271,13 +300,26 @@ body {
 @media only screen and (max-width:320px) and (min-width:314px){
     .regbutton-mobile{
         min-width: 120px !important;
+        margin-top: 141% !important;
     }
     
 }
 @media only screen and (max-width:440px) and (min-width:385px){
     .regbutton-mobile{
-        /* margin-top: 85%  !important; */
+        margin-top: 93%  !important;
         min-width: 125px !important;
+    }
+    
+}
+@media only screen and (max-width:385px) and (min-width:321px){
+    .regbutton-mobile{
+        /* margin-top: 85%  !important; */
+        min-width: 105px !important;
+        margin-top: 121% !important;
+        margin-left: 3% !important;
+    }
+    .timing-mobile{
+        font-size: 13px !important;
     }
     
 }
@@ -441,13 +483,12 @@ body {
   margin-left: 8%;
   color: #ffffff !important;
   height: 50px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   padding: 0 30px;
   line-height: 30px;
-  border: none;
-  min-width: 185px;
-  position: relative;
+    border: none;
+    min-width: 185px;
   z-index: 3;
   border-radius: 25px;
   background-color: #0f3c7a;
@@ -487,10 +528,10 @@ body {
   flex-direction: column;
   display: flex;
   z-index: 2;
-  margin-top: 35%;
+  margin-top: 40%;
   position: relative;
   width: 45%;
-  height: 35%;
+  height: 30%;
   margin-left: 8%;
   /* border: solid 1px black; */
 }
