@@ -70,21 +70,25 @@
   }
 }
 @media only screen and (min-width: 1050px) {
-  #main{
-    display: none;
+  .openbtn{
+    display: none !important;
   }
-  #siteNav
+  #myNavbar
   {
-    display: flex;
+    display: block;
   }
 }
 @media only screen and (max-width: 1050px) {
-  #main{
+  openbtn{
     display: block;
+  }
+  #myNavbar
+  {
+    display: none !important;
   }
   #siteNav
   {
-    display: none !important;
+    margin-top: -5% !important;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -314,7 +318,9 @@ body {
         margin-top: 84% !important;
         min-width:130px !important;
     }
-    
+    .logo-mobile{
+      margin-top: -52% !important;
+    }
 }
 @media only screen and (max-width:724px) and (min-width:548px){
     
@@ -323,7 +329,7 @@ body {
         min-width:130px !important;
     }
     .logo-mobile{
-        margin-top: -59% !important;
+        margin-top: -55% !important;
     }
     
 }
@@ -350,7 +356,7 @@ body {
         min-width: 125px !important;
     }
     .logo-mobile{
-        margin-top: -43% !important;
+        margin-top: -38% !important;
     }
     
 }
@@ -385,7 +391,7 @@ body {
   width: 150px;
   height: 50px;
   z-index:4;
-  margin-top: -51%;
+  margin-top: -60%;
 }
 .cloud {
   position: relative;
@@ -924,7 +930,7 @@ hr {
         margin-left: 2%;
         max-height: 174px;
         max-width: 450px;
-    margin-bottom: 1.5%;
+        margin-bottom: 1.5%;
 
 
     }
@@ -932,6 +938,9 @@ hr {
         font-size: 13px;
         margin-top:1%;
     }
+    .logo-mobile{
+      margin-top: -50% !important;
+  }
 }
 @media only screen and (min-width:320px) and (max-width:400px){
     .track-image-mobile{
@@ -946,6 +955,9 @@ hr {
         font-size: 10px;
         margin-top:1%;
     }
+    .logo-mobile{
+      margin-top: -42% !important;
+  }
 }
 .github-logo-style {
   width: 270px;
@@ -1290,7 +1302,7 @@ hr {
   border: none;
   z-index: 2;
 }
-@media only screen and (min-width:920px){
+@media only screen and (min-width:1050px){
     .hamburger{
         display: none !important;
     }
