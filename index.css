@@ -317,8 +317,8 @@ body {
     .regbutton-mobile{
         /* margin-top: 85%  !important; */
         min-width: 105px !important;
-        margin-top: 117% !important;
-        margin-left: 3% !important;
+        margin-top: 114% !important;
+        /* margin-left: 3% !important; */
     }
     .timing-mobile{
         font-size: 13px !important;
