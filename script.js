@@ -10,6 +10,9 @@ $(document).ready(function () {
   if (window.innerWidth <= 920) {
     $("#fp-nav").removeClass("left");
     $("#fp-nav").addClass("right");
+    document.querySelector('#contact').addEventListener("wheel", function(){
+      document.querySelector("#fp-nav ul li:nth-child(1) a").click();
+    });
   }
   if (window.innerWidth > 920) {
     $("#fp-nav").removeClass("right");
@@ -254,8 +257,8 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
-document.querySelector('#contact').addEventListener("wheel", function(){
-  document.querySelector("#fp-nav ul li:nth-child(1) a").click();
-});
+// document.querySelector('#contact').addEventListener("wheel", function(){
+//   document.querySelector("#fp-nav ul li:nth-child(1) a").click();
+// });
 
 // document.getElementById("contact-wrapper-mobile").addEventListener("wheel", loopBack); 
