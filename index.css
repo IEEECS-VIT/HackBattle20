@@ -1360,3 +1360,15 @@ hr {
   margin-left: 1.5%;
   margin-right: 1.5%;
 }
+@media only screen and (max-width:920px){
+    #site-footer{
+        font-size: 12px !important;
+        height: 25vh !important;
+    }
+    .about-footer{
+        display:none !important;
+    }
+    .footer-links{
+        font-size: 35px;
+    }
+}
