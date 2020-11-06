@@ -82,6 +82,10 @@
   .mobile-section-inner {
     display: block;
   }
+  #inner-mobile-home
+  {
+    display: flex;
+  }
 }
 @media only screen and (max-width: 630px) {
   .mobile-prize-box-laptop{
@@ -97,6 +101,10 @@
     display: block;
   }
   .mobile-section-inner {
+    display: none;
+  }
+  #inner-mobile-home
+  {
     display: none;
   }
 }
@@ -268,7 +276,7 @@ body {
 }
 @media only screen and (max-width:440px) and (min-width:385px){
     .regbutton-mobile{
-        margin-top: 85%  !important;
+        /* margin-top: 85%  !important; */
         min-width: 125px !important;
     }
     
@@ -447,8 +455,8 @@ body {
   /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
 .regbutton-mobile {
-    margin-left: -35%;
-    margin-top: 53%;
+    margin-left: 8%;
+    margin-top: 113%;
     color: #ffffff !important;
     height: 40px;
     font-size: 16px;
@@ -479,9 +487,9 @@ body {
   flex-direction: column;
   display: flex;
   z-index: 2;
-  margin-top: 24%;
+  margin-top: 35%;
   position: relative;
-  width: 35%;
+  width: 45%;
   height: 35%;
   margin-left: 8%;
   /* border: solid 1px black; */
