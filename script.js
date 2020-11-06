@@ -38,6 +38,40 @@ $(document).ready(function () {
     $("#fp-nav ul li:nth-child(9) a").click();
   });
 
+  // For mobile sidebar
+  $("#m-home-link").click(function () {
+    $("#fp-nav ul li:nth-child(1) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-about-link").click(function () {
+    $("#fp-nav ul li:nth-child(2) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-tracks-link").click(function () {
+    $("#fp-nav ul li:nth-child(3) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-prizes-link").click(function () {
+    $("#fp-nav ul li:nth-child(5) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-schedule-link").click(function () {
+    $("#fp-nav ul li:nth-child(6) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-faq-link").click(function () {
+    $("#fp-nav ul li:nth-child(7) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-sponsors-link").click(function () {
+    $("#fp-nav ul li:nth-child(8) a").click();
+    $('.closebtn').click();
+  });
+  $("#m-contact-link").click(function () {
+    $("#fp-nav ul li:nth-child(9) a").click();
+    $('.closebtn').click();
+  });
+
   window.onresize = function() {
       if (window.innerWidth <= 920) {
           $('#fp-nav').removeClass('left');
