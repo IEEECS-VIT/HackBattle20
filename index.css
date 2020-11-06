@@ -1270,7 +1270,7 @@ hr {
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
-  top: 1%;
+  top: 1.5%;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
@@ -1280,7 +1280,7 @@ hr {
 .openbtn {
   position: fixed;
   right: 3%;
-  top: -1.5%;
+  top: 1%;
   font-size: 40px;
   cursor: pointer;
   background-color: transparent;
