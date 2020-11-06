@@ -254,11 +254,11 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
-if(window.innerWidth<920)
-{
-  document.querySelector('#contact').addEventListener("wheel", function(){
-    document.querySelector("#fp-nav ul li:nth-child(1) a").click();
-  });
-}
+// if(window.innerWidth<920)
+// {
+//   document.querySelector('#contact').addEventListener("wheel", function(){
+//     document.querySelector("#fp-nav ul li:nth-child(1) a").click();
+//   });
+// }
 
 // document.getElementById("contact-wrapper-mobile").addEventListener("wheel", loopBack); 
