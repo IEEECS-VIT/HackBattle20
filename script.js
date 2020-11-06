@@ -38,16 +38,16 @@ $(document).ready(function () {
     $("#fp-nav ul li:nth-child(9) a").click();
   });
 
-  // window.onresize = function() {
-  //     if (window.innerWidth <= 920) {
-  //         $('#fp-nav').removeClass('left');
-  //         $('#fp-nav').addClass('right');
-  //     }
-  //     if (window.innerWidth > 920) {
-  //         $('#fp-nav').removeClass('right');
-  //         $('#fp-nav').addClass('left');
-  //     }
-  // }
+  window.onresize = function() {
+      if (window.innerWidth <= 920) {
+          $('#fp-nav').removeClass('left');
+          $('#fp-nav').addClass('right');
+      }
+      if (window.innerWidth > 920) {
+          $('#fp-nav').removeClass('right');
+          $('#fp-nav').addClass('left');
+      }
+  }
 });
 $(document).ready(function () {
   $("#day2").css('display','none');

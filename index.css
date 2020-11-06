@@ -238,12 +238,12 @@ body {
   position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1699px;
-  height: 1046px;
+  height: 1699px;
+  width: 1089px;
   max-height: 87vh;
   margin-right: 2%;
-  margin-left: -60%;
-  margin-top: -48%;
+  margin-left: -10%;
+  margin-top: -18%;
   /* margin-top: 0%; */
 }
 @media only screen and (min-width:724px) and (max-width:850px){
@@ -251,12 +251,12 @@ body {
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1599px;
-  height: 1046px;
+  height: 1599px;
+  width: 1025px;
   max-height: 77vh;
   margin-right: 15%;
-  margin-left: -74%;
-  margin-top: -64%;
+  margin-left: -17%;
+  margin-top: -40%;
   /* margin-top: 0%; */
     }
     .regbutton-mobile{
@@ -272,12 +272,12 @@ body {
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1599px;
-  height: 1046px;
+  height: 1599px;
+  width: 1025px;
   max-height: 77vh;
   margin-right: 15%;
-  margin-left: -90%;
-  margin-top: -37%;
+  margin-left: -30%;
+  margin-top: -27%;
   /* margin-top: 0%; */
     }
     
@@ -287,12 +287,12 @@ body {
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1644px;
-  height: 1046px;
+  height: 1644px;
+  width: 1054px;
   max-height: 77vh;
   margin-right: 15%;
-  margin-left: -119%;
-  margin-top: -79%;
+  margin-left: -42%;
+  margin-top: -25%;
   /* margin-top: 0%; */
     }
     
@@ -302,27 +302,27 @@ body {
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1624px;
-  height: 1046px;
+  height: 1624px;
+  width: 1046px;
   max-height: 77vh;
   margin-right: 15%;
-  margin-left: -128%;
-  margin-top: -76%;
+  margin-left: -56%;
+  margin-top: -26%;
   /* margin-top: 0%; */
     }
     
 }
-@media only screen and (max-width:548px) and (min-width:414px){
+@media only screen and (max-width:548px) and (min-width:440px){
     .rocket-mobile{
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1188px;
-  height: 1016px;
+  height: 1188px;
+  width: 1016px;
   max-height: 77vh;
   margin-right: 15%;
-  margin-left: -127%;
-  margin-top: -65%;
+  margin-left: -75%;
+  margin-top: -25%;
   /* margin-top: 0%; */
     }
     .regbutton-mobile{
@@ -331,17 +331,17 @@ body {
     }
     
 }
-@media only screen and (max-width:376px) and (min-width:321px){
+@media only screen and (max-width:385px) and (min-width:321px){
     .rocket-mobile{
         position: relative;
   z-index: 1;
   /* position: absolute; */
-  width: 1024px;
-  height: 1016px;
+  height: 1024px;
+  width: 1016px;
   max-height: 87vh;
   margin-right: 15%;
-  margin-left: -129%;
-  margin-top: -95%;
+  margin-left: -119%;
+  margin-top: -65%;
   /* margin-top: 0%; */
     }
     
@@ -364,17 +364,17 @@ body {
     }
     
 }
-@media only screen and (max-width:410px) and (min-width:375px){
+@media only screen and (max-width:440px) and (min-width:385px){
     .rocket-mobile{
         position: relative;
   z-index: 1;
   /* position: absolute; */
   width: 1000px;
-  height: 1016px;
+  height: 1296px;
   max-height: 77vh;
   margin-right: 15%;
-  margin-left: -118%;
-  margin-top: -74%;
+  margin-left: -95%;
+  margin-top: -42%;
   /* margin-top: 0%; */
     }
     .regbutton-mobile{
@@ -383,24 +383,22 @@ body {
     }
     
 }
-@media only screen and (max-width:414px) and (min-width:411px){
+/* @media only screen and (max-width:414px) and (min-width:411px){
     .rocket-mobile{
         position: relative;
   z-index: 1;
-  /* position: absolute; */
   width: 1188px;
   height: 1016px;
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -127%;
   margin-top: -76%;
-  /* margin-top: 0%; */
     }
     .regbutton-mobile{
         margin-top:76% !important;
         min-width: 125px !important;
     }
-    
+     */
 }
 .mobile-logo {
   margin-right: 1%;
@@ -575,7 +573,7 @@ body {
 }
 .regbutton-mobile {
     margin-left: -35%;
-    margin-top: 93%;
+    margin-top: 53%;
     color: #ffffff !important;
     height: 40px;
     font-size: 16px;
@@ -585,7 +583,7 @@ body {
     border: none;
     min-width: 165px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     border-radius: 25px;
     background-color: #0f3c7a;
     box-shadow: 0 4px 4px 2px #59d4fb;
