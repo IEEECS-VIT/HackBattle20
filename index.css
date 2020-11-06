@@ -112,6 +112,10 @@
   {
     margin-top: -8%;
   }
+  #site-footer
+  {
+    display: none !important;
+  }
 }
 @media only screen and (max-width: 630px) {
   .mobile-prize-box-laptop{
@@ -132,6 +136,10 @@
   #inner-mobile-home
   {
     display: none;
+  }
+  #site-footer
+  {
+    display: table;
   }
 }
 
@@ -1319,4 +1327,31 @@ hr {
 .hide
 {
   display: none !important;
+}
+#site-footer
+{
+  display: table;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  height: 30vh !important;
+  background-color: #222;
+  color: white;
+  padding: 2% 2% 2% 2%;
+  /* border: solid 1px black !important; */
+}
+#site-footer div
+{
+  display: table-cell;
+  width: 32%;
+  /* border: solid 1px white; */
+  max-width: 20%;
+}
+.footer-links
+{
+  text-decoration: none;
+  color: white;
+  font-size: 42px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
