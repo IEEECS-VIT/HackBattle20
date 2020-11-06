@@ -896,19 +896,22 @@ hr {
     margin-left: 20%;
     justify-content:center;
     border-radius: 24px;
+    margin-bottom: 0.5%;
   }
 .track-text {
   font-size: 22px;
 }
 .track-text-mobile{
     font-size: 16px;
-    margin-top: 0.5%;
+    margin-top: 1.5%;
 }
 @media only screen and (min-width:600px) and (max-width:750px){
     .track-image-mobile{
         margin-left: 2%;
         max-width: 450px;
         max-height: 200px;
+    margin-bottom: 1.5%;
+
 
     }
     .track-text-mobile{
@@ -921,6 +924,8 @@ hr {
         margin-left: 2%;
         max-height: 186px;
         max-width: 450px;
+    margin-bottom: 1.5%;
+
 
     }
     .track-text-mobile{
@@ -933,6 +938,8 @@ hr {
         margin-left: 2%;
         max-height: 174px;
         max-width: 450px;
+    margin-bottom: 1.5%;
+
 
     }
     .track-text-mobile{
@@ -945,10 +952,12 @@ hr {
         margin-left: 2%;
         max-height: 150px;
         max-width: 450px;
+    margin-bottom: 1%;
+
 
     }
     .track-text-mobile{
-        font-size: 12px;
+        font-size: 10px;
         margin-top:1%;
     }
 }
