@@ -122,6 +122,13 @@ $(document).ready(function () {
       $("#m-d1").removeClass("active1");
       $("#m-d2").removeClass("active1");
   });
+
+  $('.openbtn').click(function(){
+    $('.openbtn').addClass('hide');
+  });
+  $('.closebtn').click(function(){
+    $('.openbtn').removeClass('hide');
+  });
 });
 // var burgerMenu = function() {
 
@@ -201,3 +208,14 @@ function sendEmail() {
     Body: "--->Body: \n" + b + "\n" + "--->E-Mail: " + e,
   }).then((message) => alert("mail has been sent sucessfully"));
 }
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+} 
