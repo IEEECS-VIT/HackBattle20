@@ -311,8 +311,12 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -127%;
-  margin-top: -104%;
+  margin-top: -65%;
   /* margin-top: 0%; */
+    }
+    .regbutton-mobile{
+        margin-top: 78% !important;
+        min-width:130px !important;
     }
     
 }
@@ -326,7 +330,7 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -129%;
-  margin-top: -115%;
+  margin-top: -95%;
   /* margin-top: 0%; */
     }
     
@@ -341,8 +345,11 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -151%;
-  margin-top: -138%;
+  margin-top: -94%;
   /* margin-top: 0%; */
+    }
+    .regbutton-mobile{
+        min-width: 120px !important;
     }
     
 }
@@ -356,8 +363,12 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -118%;
-  margin-top: -113%;
+  margin-top: -93%;
   /* margin-top: 0%; */
+    }
+    .regbutton-mobile{
+        margin-top: 85%  !important;
+        min-width: 140px !important;
     }
     
 }
@@ -371,8 +382,12 @@ body {
   max-height: 87vh;
   margin-right: 15%;
   margin-left: -127%;
-  margin-top: -96%;
+  margin-top: -76%;
   /* margin-top: 0%; */
+    }
+    .regbutton-mobile{
+        margin-top:76% !important;
+        min-width: 125px !important;
     }
     
 }
@@ -548,7 +563,8 @@ body {
   /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
 .regbutton-mobile {
-    margin-left: -26%;
+    margin-left: -35%;
+    margin-top: 93%;
     color: #ffffff !important;
     height: 40px;
     font-size: 16px;
@@ -557,7 +573,7 @@ body {
     line-height: 20px;
     border: none;
     min-width: 165px;
-    position: relative;
+    position: absolute;
     z-index: 2;
     border-radius: 25px;
     background-color: #0f3c7a;
@@ -590,9 +606,9 @@ body {
     flex-direction: column;
     display: flex;
     z-index: 2;
-    margin-top: 10%;
+    margin-top: 12%;
     position: relative;
-    width: 25%;
+    width: 35%;
     height: 25%;
     margin-left: 3%;
     /* border: solid 1px black; */
