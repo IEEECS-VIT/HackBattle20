@@ -677,6 +677,7 @@ body {
   margin-left: 16% !important;
   margin: 0.5%;
   display: inline-block;
+  cursor: pointer;
 }
 .mobile-ques {
   background-color: #0f3c7a;
@@ -1407,3 +1408,4 @@ hr {
         font-size: 1.4em !important;
     }
 }
+

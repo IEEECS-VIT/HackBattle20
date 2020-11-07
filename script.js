@@ -237,7 +237,7 @@ function sendEmail() {
   var b = document.getElementById("body").value;
   Email.send({
     SecureToken: "4aeccc00-2be8-49a1-a721-645bdd2a8622",
-    To: "prernasultania2000@gmail.com",
+    To: "vithack.crisis@gmail.com",
     From: "vithack.crisis@gmail.com",
     Subject: "This is the subject",
     Body: "--->Body: \n" + b + "\n" + "--->E-Mail: " + e,
@@ -262,3 +262,6 @@ function closeNav() {
 // }
 
 // document.getElementById("contact-wrapper-mobile").addEventListener("wheel", loopBack); 
+// var coll = document.getElementsByClassName("ques");
+// var i;
+
