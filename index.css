@@ -1402,4 +1402,8 @@ hr {
     .break{
         display: none !important;
     }
+    
+    .footer-head{
+        font-size: 1.4em !important;
+    }
 }
