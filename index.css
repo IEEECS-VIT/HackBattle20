@@ -1399,4 +1399,7 @@ hr {
     .footer-links{
         font-size: 35px;
     }
+    .break{
+        display: none !important;
+    }
 }
