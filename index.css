@@ -479,8 +479,14 @@ body {
   margin-left: 25px;
 }
 .nav-link li a {
+  transition: all 0.1s;
   text-decoration: none;
   color: #696969;
+}
+.nav-link li a:hover {
+  transition: all 0.1s;
+  border-bottom: 2px solid #0f3c7a;
+  color: #0f3c7a;
 }
 .sub-button {
   margin-left: 30%;
