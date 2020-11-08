@@ -269,6 +269,5 @@ function myFunction(){
     preloader.style.display='none';
     document.getElementById('fp-nav').style.display='block';
     document.getElementById('main').style.display='block';
-    // document.getElementsByClassName('openbtn')[0].style.color='#214a81 !important';
 }
 
