@@ -676,15 +676,17 @@ body {
 }
 .ques {
   position: relative;
+  padding-top: 0.5%;
   border: solid 8px #84b4fe;
   border-radius: 4px;
+  font-size: 30px;
   background-color: #0f3c7a;
   color: #ffffff;
   width: 40%;
   height: 3em !important;
   text-align: center;
   /* margin-left: 16% !important; */
-  margin: 0.5%;
+  margin: 1.5%;
   display: inline-block;
   /* cursor: pointer; */
 }
@@ -692,6 +694,7 @@ body {
 {
   color: white;
   text-decoration: none;
+  vertical-align: baseline;
 }
 .ques a:hover
 {
@@ -701,7 +704,8 @@ body {
 .faq-expanded
 {
   position: relative;
-  /* min-height: 160px; */
+  font-size: 16px !important;
+  /* min-height: 190px; */
   background-color: #0f3c7a !important;
   color: white !important;
 }
