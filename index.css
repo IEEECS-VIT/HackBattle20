@@ -686,7 +686,7 @@ body {
   /* margin-left: 16% !important; */
   margin: 0.5%;
   display: inline-block;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .ques a
 {
@@ -706,22 +706,31 @@ body {
   color: white !important;
 }
 .mobile-ques {
+  border: solid 8px #84b4fe;
+  border-radius: 4px;
   background-color: #0f3c7a;
   color: #ffffff;
   width: 70%;
   height: 3em !important;
   text-align: center;
-  margin-left: 13% !important;
+  /* margin-left: 13% !important; */
   margin: 1%;
-  display: inline-block;
-  margin-top: 3% !important;
+  /* display: inline-block; */
+  /* margin-top: 3% !important; */
+}
+.mobile-ques a
+{
+  color: white;
 }
 .mobile-faq-div {
   flex-direction: column;
   display: flex;
-  margin-top: 6.5%;
-  margin: auto;
-  margin-left: 3%;
+  /* border: solid 1px black; */
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 6.5%; */
+  /* margin: auto; */
+  /* margin-left: 3%; */
 }
 @media (min-width: 300px) and (max-width: 330px) {
   .mobile-faq-div {
