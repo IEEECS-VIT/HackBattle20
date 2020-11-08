@@ -677,21 +677,21 @@
                         <form method="post">
                             <div class="form group">
                                 <label style="margin-top:2%;"class="label-form">Name</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" required>
 
                             </div>
                             <div class="form group">
                                 <label class="label-form">Email</label>
-                                <input type="text" id="mail" class="form-control">
+                                <input type="text" id="mail" class="form-control" required>
 
                             </div>
                             <div class="form group">
                                 <label  class="label-form">Message</label>
-                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control"></textarea>
+                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control" required></textarea>
 
                                 <br>
-                                <!-- <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button> -->
-                                <input type="button"  class="sub-button" value="Submit" onclick="sendEmail()">
+                                <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button>
+                                <!-- <input type="button"  class="sub-button" value="Submit" onclick="sendEmail()"> -->
                                 <br>
                             </div>
                         </form>
