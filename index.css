@@ -1478,6 +1478,7 @@ hr {
 #loading{
     width: 100px;
     height: 100vh;
+    z-index:9999;
 }
 
 @keyframes circle{
