@@ -267,5 +267,7 @@ function closeNav() {
 var preloader= document.getElementById('loading');
 function myFunction(){
     preloader.style.display='none';
+    document.getElementById('fp-nav').style.display='block';
+    document.getElementsByClassName('hamburger').style.display='block';
 }
 

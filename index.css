@@ -663,6 +663,15 @@ body {
 .heading {
   font-size: 38px;
 }
+
+#fp-nav
+{
+  display: none;
+}
+.hamburger
+{
+  display: none;
+}
 #fp-nav ul li a span {
   background-color: #0f3c7a;
 }
@@ -1480,7 +1489,6 @@ hr {
     height: 100vh;
     z-index:9999;
 }
-
 @keyframes circle{
     0%{
         top:60px;
