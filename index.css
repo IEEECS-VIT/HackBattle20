@@ -677,9 +677,9 @@ body {
 .ques {
   position: relative;
   padding-top: 0.5%;
-  border: solid 8px #84b4fe;
+  /* border: solid 8px #84b4fe; */
   border-radius: 4px;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #0f3c7a;
   color: #ffffff;
   width: 40%;
@@ -710,7 +710,7 @@ body {
   color: white !important;
 }
 .mobile-ques {
-  border: solid 8px #84b4fe;
+  /* border: solid 8px #84b4fe; */
   border-radius: 4px;
   background-color: #0f3c7a;
   color: #ffffff;
@@ -1456,4 +1456,96 @@ hr {
         font-size: 1.4em !important;
     }
 }
+
+.wrapper{
+    width:200px;
+    height:60px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.circle{
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0f3c7a;
+    left:15%;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease;
+}
+#loading{
+    width: 100px;
+    height: 100vh;
+}
+
+@keyframes circle{
+    0%{
+        top:60px;
+        height:5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40%{
+        height:20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100%{
+        top:0%;
+    }
+}
+.circle:nth-child(2){
+    left:45%;
+    animation-delay: .2s;
+}
+.circle:nth-child(3){
+    left:auto;
+    right:15%;
+    animation-delay: .3s;
+}
+.shadow{
+    width:20px;
+    height:4px;
+    border-radius: 50%;
+    background-color:#59d4fb;
+    position: absolute;
+    top:62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left:15%;
+    filter: blur(1px);
+    animation: shadow .5s alternate infinite ease;
+}
+
+@keyframes shadow{
+    0%{
+        transform: scaleX(1.5);
+    }
+    40%{
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100%{
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+.shadow:nth-child(4){
+    left: 45%;
+    animation-delay: .2s
+}
+.shadow:nth-child(5){
+    left:auto;
+    right:15%;
+    animation-delay: .3s;
+}
+
+
+
+
+
+
+
 

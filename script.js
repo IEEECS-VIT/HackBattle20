@@ -264,4 +264,7 @@ function closeNav() {
 // document.getElementById("contact-wrapper-mobile").addEventListener("wheel", loopBack); 
 // var coll = document.getElementsByClassName("ques");
 // var i;
-
+var preloader= document.getElementById('loading');
+function myFunction(){
+    preloader.style.display='none';
+}
