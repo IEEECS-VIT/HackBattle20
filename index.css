@@ -1561,8 +1561,34 @@ hr {
     animation-delay: .3s;
 }
 
-
-
+.accordion
+{
+  /* border: solid 1px black; */
+  width: 60%;
+}
+.card-header
+{
+  background-color: #214a81;
+  height: 7vh;
+}
+.card-header button
+{
+  color: white !important;
+  font-size: 20px;
+  height: fit-content;
+  margin-top: -3.5%;
+  /* border: solid 1px black; */
+  width: 100%;
+}
+.card-header button a
+{
+  text-decoration: none;
+  /* color: white !important; */
+}
+.card
+{
+  max-height: 270px;
+}
 
 
 
