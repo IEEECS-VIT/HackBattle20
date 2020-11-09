@@ -724,7 +724,9 @@ body {
   /* min-height: 190px; */
   background-color: #0f3c7a !important;
   color: white !important;
+  /* opacity:0; */
 }
+
 .mobile-ques {
   /* border: solid 8px #84b4fe; */
   border-radius: 4px;
