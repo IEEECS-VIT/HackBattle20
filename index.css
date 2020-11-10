@@ -508,6 +508,8 @@ body {
   border-radius: 25px;
   background-color: #0f3c7a;
   margin-bottom: 2%;
+  outline: 0 !important;
+
   /* box-shadow: 0 4px 4px 2px #59D4FB; */
 }
 .sub-button-mobile {
@@ -526,6 +528,8 @@ body {
   border-radius: 25px;
   background-color: #0f3c7a;
   margin-bottom: 2%;
+  outline: 0 !important;
+
   /* box-shadow: 0 4px 4px 2px #59D4FB; */
 }
 @media only screen and (max-width: 500px) {
@@ -586,6 +590,7 @@ body {
 }
 .regbutton {
   margin-left: 8%;
+  /* margin-top: 2%; */
   color: #ffffff !important;
   height: 50px;
   font-size: 18px;
@@ -598,6 +603,7 @@ body {
   border-radius: 25px;
   background-color: #0f3c7a;
   box-shadow: 0 4px 4px 2px #59d4fb;
+  outline: 0 !important;
   /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
 .regbutton-mobile {
@@ -616,6 +622,8 @@ body {
     border-radius: 25px;
     background-color: #0f3c7a;
     box-shadow: 0 4px 4px 2px #59d4fb;
+    outline: 0 !important;
+
     /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
   }
 #inner-mobile-home

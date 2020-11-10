@@ -80,7 +80,7 @@
                 <br>
                 <br>
                     <p class="mobile-head"style="font-size:25px;">A Place Where Your Crazy Idea Becomes Reality</p>
-                    <p class="timing-mobile"style="color:#696969; font-size: 15px; margin-bottom:1%;">28th - 30th November<br>Starts at 12:00 pm</p>
+                    <p class="timing-mobile"style="color:#696969; font-size: 15px; margin-bottom:1%;">28<sup>th</sup> - 30<sup>th</sup> November<br>Starts at 12:00 pm</p>
                 </div>
                 <button class="regbutton-mobile">Register</button>
                 <!-- <div style="display:inline-block;"class="home-text-mobile">
@@ -110,7 +110,7 @@
 
                 <div class="home-text">
                     <p class="heading">A Place Where Your Crazy Idea Becomes Reality</p><br>
-                    <p style="color:#696969; font-size: 20px;">28th - 30th November<br>Starts at 12:00 pm</p>
+                    <p style="color:#696969; font-size: 20px; margin-top:-9px;">28<sup>th</sup> - 30<sup>th</sup> November<br>Starts at 12:00 pm</p>
                 </div>
                 <button class="regbutton">Register</button>
                 <img class="rocket_big" style="display:inline-block;" src="./assets/rocket_big.png">
@@ -649,8 +649,12 @@
                             </div>
                             <div class="form group-mobile">
                                 <label class="label-form-mobile">Email</label>
-                                <input type="text" style="border-radius:4%;"id="m-mail" class="form-control-mobile" required>
+                                <input type="email" style="border-radius:4%;"id="m-mail" class="form-control-mobile" required>
                             </div>
+                            <!-- <div class="form group-mobile">
+                                <label class="label-form-mobile">Phone No.</label>
+                                <input type="tel" style="border-radius:4%;"class="form-control-mobile" >
+                            </div> -->
                             <div class="form group-mobile">
                                 <label class="label-form-mobile">Message</label>
                                 <textarea id="m-body" style="margin-bottom:4%; border-radius:2%;"cols="30" rows="4" class="form-control-mobile" required></textarea>
@@ -689,17 +693,22 @@
                         <div>
                             <div class="form group">
                                 <label style="margin-top:2%;"class="label-form">Name</label>
-                                <input id="contact_name" type="text" class="form-control">
+                                <input id="contact_name" type="text" class="form-control" required>
 
                             </div>
                             <div class="form group">
                                 <label class="label-form">Email</label>
-                                <input type="text" id="mail" class="form-control">
+                                <input type="email" id="mail" class="form-control" required>
 
                             </div>
+                            <!-- <div class="form group">
+                                <label class="label-form">Phone No.</label>
+                                <input type="tel" class="form-control" >
+
+                            </div> -->
                             <div class="form group">
                                 <label  class="label-form">Message</label>
-                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control"></textarea>
+                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control" required></textarea>
 
                                 <br>
                                 <button class="sub-button" value="Send Email" onclick="validateBeforeSend();" >Submit</button>
