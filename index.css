@@ -809,6 +809,7 @@ h6 {
   border-radius: 25px;
   background-color: #84b4fe;
   box-shadow: 0 4px 4px 2px #59d4fb;
+  outline: 0 !important;
   /* margin:auto; */
 }
 #day1, #day2, #day3, #m-day1, #m-day2, #m-day3
@@ -840,6 +841,9 @@ h6 {
   border-radius: 25px;
   background-color: #84b4fe;
   box-shadow: 0 4px 4px 2px #59d4fb;
+  outline: 0 !important;
+
+  
 }
 .daybutton:hover,
 .daybutton:active,
@@ -957,6 +961,7 @@ hr {
 }
 .active1 {
   background-color: #0f3c7a;
+  outline: none;
 }
 
 .track-div {
