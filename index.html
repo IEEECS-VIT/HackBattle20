@@ -641,15 +641,15 @@
                         <form method="post">
                             <div class="form group-mobile">
                                 <label style="margin-top:2%;"class="label-form-mobile">Name</label>
-                                <input type="text" style="border-radius:4%;"class="form-control-mobile" required>
+                                <input id="m-contact_name" type="text" style="border-radius:4%;"class="form-control-mobile" required>
                             </div>
                             <div class="form group-mobile">
                                 <label class="label-form-mobile">Email</label>
-                                <input type="text" style="border-radius:4%;"id="mail" class="form-control-mobile" required>
+                                <input type="text" style="border-radius:4%;"id="m-mail" class="form-control-mobile" required>
                             </div>
                             <div class="form group-mobile">
                                 <label class="label-form-mobile">Message</label>
-                                <textarea id="body" style="margin-bottom:4%; border-radius:2%;"cols="30" rows="4" class="form-control-mobile" required></textarea>
+                                <textarea id="m-body" style="margin-bottom:4%; border-radius:2%;"cols="30" rows="4" class="form-control-mobile" required></textarea>
                                 <br>
                                 <!-- <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button> -->
                                 <input type="button"  class="sub-button-mobile" value="Submit" onclick="sendEmail()">
@@ -682,27 +682,27 @@
                 <p style="z-index:2; display:inline-block;" class="section-header">Contact Us</p>
                 <div id="contact-wrapper">
                     <div class="email-div">
-                        <form method="post">
+                        <div>
                             <div class="form group">
                                 <label style="margin-top:2%;"class="label-form">Name</label>
-                                <input type="text" class="form-control" required>
+                                <input id="contact_name" type="text" class="form-control">
 
                             </div>
                             <div class="form group">
                                 <label class="label-form">Email</label>
-                                <input type="text" id="mail" class="form-control" required>
+                                <input type="text" id="mail" class="form-control">
 
                             </div>
                             <div class="form group">
                                 <label  class="label-form">Message</label>
-                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control" required></textarea>
+                                <textarea id="body" style="margin-bottom:2%;"cols="30" rows="7" class="form-control"></textarea>
 
                                 <br>
-                                <button class="sub-button" value="Send Email" onclick="sendEmail()" >Submit</button>
+                                <button class="sub-button" value="Send Email" onclick="validateBeforeSend();" >Submit</button>
                                 <!-- <input type="button"  class="sub-button" value="Submit" onclick="sendEmail()"> -->
                                 <br>
                             </div>
-                        </form>
+                        </div>
                     </div>
                     <div class="icons-contact">
                         <div class="contact-line">

@@ -229,12 +229,46 @@ $(document).ready(function () {
 // $('#dropdown04').on('show.bs.dropdown', function () {
 //   console.log('show');
 // });
+function validateBeforeSend()
+{
+  var name=document.getElementById('m-contact_name').value;
+  var mail=document.getElementById('m-mail').value;
+  var body=document.getElementById('m-body').value;
+  if(name==='' || name==='' || body==='')
+    alert("Please fill all fields before submitting your message.");
+  else
+    sendMobileEmail();
+}
+function validateBeforeSend()
+{
+  var name=document.getElementById('contact_name').value;
+  var mail=document.getElementById('mail').value;
+  var body=document.getElementById('body').value;
+  if(name==='' || name==='' || body==='')
+    alert("Please fill all fields before submitting your message.");
+  else
+    sendEmail();
+}
 function sendEmail() {
   // var n=document.getElementById("name").value;
   var e = document.getElementById("mail").value;
   //var p=document.getElementById("phone").value;
   // var s=document.getElementById("sub").value;
   var b = document.getElementById("body").value;
+  Email.send({
+    SecureToken: "4aeccc00-2be8-49a1-a721-645bdd2a8622",
+    To: "vithack.crisis@gmail.com",
+    From: "vithack.crisis@gmail.com",
+    Subject: "This is the subject",
+    Body: "--->Body: \n" + b + "\n" + "--->E-Mail: " + e,
+  }).then((message) => alert("mail has been sent sucessfully"));
+}
+function sendMobileEmail() {
+  // var n=document.getElementById("name").value;
+  var e = document.getElementById("m-mail").value;
+  //var p=document.getElementById("phone").value;
+  // var s=document.getElementById("sub").value;
+  var b = document.getElementById("m-body").value;
   Email.send({
     SecureToken: "4aeccc00-2be8-49a1-a721-645bdd2a8622",
     To: "vithack.crisis@gmail.com",
