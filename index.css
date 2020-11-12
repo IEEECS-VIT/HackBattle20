@@ -343,9 +343,9 @@ body {
 }
 @media only screen and (max-width:850px) and (min-width:724px){
     
-    .logo-mobile{
+    /* .logo-mobile{
         margin-top:-59% !important;
-    }
+    } */
     
 }
 
@@ -371,9 +371,9 @@ body {
         margin-top: 73% !important;
         min-width:130px !important;
     }
-    .logo-mobile{
+    /* .logo-mobile{
         margin-top: -45% !important;
-    }
+    } */
     
 }
 
@@ -434,7 +434,7 @@ body {
   width: 150px;
   height: 50px;
   z-index:4;
-  margin-top: -51%;
+  margin-top: -36%;
 }
 .cloud {
   position: relative;
