@@ -6,9 +6,24 @@ $(document).ready(function () {
     navigation: true,
     navigationPosition: "left",
   });
+  var initWd=$(window).width();
+  // console.log(initWd);
 
   $("#fp-nav ul li:nth-child(2) a").click();
   $("#fp-nav ul li:nth-child(1) a").click();
+
+  $( window ).resize(function() {
+    // $( "#log" ).append( "<div>Handler for .resize() called.</div>" );
+    // console.log(initWd);
+    // console.log(window.innerWidth);
+    if((window.innerWidth>920 && initWd<920) || (window.innerWidth<920 && initWd>920))
+    {
+      console.log("Reload");
+      initWd=window.innerWidth;
+      window.location.href = window.location.href;
+      // location.reload();
+    }
+  });
 
   if (window.innerWidth <= 920) {
     $("#fp-nav").removeClass("left");
