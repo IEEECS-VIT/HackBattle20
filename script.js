@@ -7,6 +7,9 @@ $(document).ready(function () {
     navigationPosition: "left",
   });
 
+  // $("#fp-nav ul li:nth-child(2) a").click();
+  // $("#fp-nav ul li:nth-child(1) a").click();
+
   if (window.innerWidth <= 920) {
     $("#fp-nav").removeClass("left");
     $("#fp-nav").addClass("right");
