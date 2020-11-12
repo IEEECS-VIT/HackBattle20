@@ -244,6 +244,12 @@ body {
   width: 120%;
   transform: rotate(-8deg);
 }
+.track-text{
+    text-align: justify;
+}
+.track-text-mobile{
+    text-align: justify;
+}
 .content-div {
   display: flex;
   align-items: center;
