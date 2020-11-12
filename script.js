@@ -20,8 +20,8 @@ $(document).ready(function () {
     {
       console.log("Reload");
       initWd=window.innerWidth;
-      window.location.href = window.location.href;
-      // location.reload();
+      // window.location.href = window.location.href;
+      location.reload();
     }
   });
 
