@@ -216,7 +216,7 @@ body {
 }
 
 .mobile-section-inner {
-  margin-top: -20% !important;
+  margin-top: -10% !important;
   /* text-align: center; */
   /* border: solid 1px black; */
   height: 80%;
@@ -343,9 +343,9 @@ body {
 }
 @media only screen and (max-width:850px) and (min-width:724px){
     
-    .logo-mobile{
+    /* .logo-mobile{
         margin-top:-59% !important;
-    }
+    } */
     
 }
 
@@ -371,9 +371,9 @@ body {
         margin-top: 73% !important;
         min-width:130px !important;
     }
-    .logo-mobile{
+    /* .logo-mobile{
         margin-top: -45% !important;
-    }
+    } */
     
 }
 
@@ -434,7 +434,7 @@ body {
   width: 150px;
   height: 50px;
   z-index:4;
-  margin-top: -51%;
+  margin-top: -31%;
 }
 .cloud {
   position: relative;
@@ -985,10 +985,12 @@ hr {
 }
 .track-div-mobile {
     /* border: solid 1px black; */
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     margin-top: -6% !important;
     align-items: center;
     width: 70%;
+    /* max-height: 40vh; */
     margin: auto;
     margin-bottom: 1% !important;
   }
@@ -1005,71 +1007,73 @@ hr {
   border-radius: 24px;
 }
 .track-image-mobile {
-    max-width: 400px;
-    max-height: 207px;
-    margin-left: 20%;
-    justify-content:center;
+    max-width: 275px;
+    max-height: 137.5px;
+    /* margin-left: 20%; */
+    /* justify-content:center; */
     border-radius: 24px;
     margin-bottom: 0.5%;
   }
 .track-text {
   font-size: 22px;
+  text-align: justify;
 }
 .track-text-mobile{
     font-size: 16px;
     margin-top: 1.5%;
+    text-align: justify;
 }
 @media only screen and (min-width:600px) and (max-width:750px){
-    .track-image-mobile{
+    /* .track-image-mobile{
         margin-left: 2%;
         max-width: 450px;
         max-height: 200px;
     margin-bottom: 1.5%;
 
 
-    }
+    } */
     .track-text-mobile{
         font-size: 15px;
         margin-top:1%;
     }
 }
 @media only screen and (min-width:500px) and (max-width:600px){
-    .track-image-mobile{
+    /* .track-image-mobile{
         margin-left: 2%;
         max-height: 186px;
         max-width: 450px;
     margin-bottom: 1.5%;
 
 
-    }
+    } */
     .track-text-mobile{
         font-size: 14px;
         margin-top:1%;
     }
 }
 @media only screen and (min-width:400px) and (max-width:500px){
-    .track-image-mobile{
+    /* .track-image-mobile{
         margin-left: 2%;
         max-height: 174px;
         max-width: 450px;
     margin-bottom: 1.5%;
 
 
-    }
+    } */
     .track-text-mobile{
         font-size: 13px;
         margin-top:1%;
     }
 }
 @media only screen and (min-width:320px) and (max-width:400px){
-    .track-image-mobile{
+    /* .track-image-mobile{
         margin-left: 2%;
         max-height: 150px;
         max-width: 450px;
     margin-bottom: 1%;
 
 
-    }
+    } */
     .track-text-mobile{
         font-size: 10px;
         margin-top:1%;
