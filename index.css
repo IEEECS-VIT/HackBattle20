@@ -1038,7 +1038,7 @@ hr {
 }
 .track-image-mobile {
     max-width: 300px;
-    max-height: 150px;
+    max-height: 132px;
     /* margin-left: 20%; */
     justify-content:center;
     border-radius: 24px;
