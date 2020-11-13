@@ -87,6 +87,10 @@
   .track-text {
     font-size: 18px !important;
   }
+  .content-div p
+  {
+    font-size: 18px !important;
+  }
 }
 @media only screen and (min-width: 1050px) {
   .openbtn{
@@ -114,6 +118,10 @@
   .track-text {
     font-size: 16px !important;
   }
+  .content-div p
+  {
+    font-size: 16px !important;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -131,11 +139,11 @@
   {
     margin-top: -7%;
   }
-  /* .track-buttons
+  .track-buttons
   {
-    min-height: 30px !important;
-    font-size: 14px;
-  } */
+    min-height: 35px !important;
+    font-size: 16px;
+  }
   /* #site-footer
   {
     display: none !important;
@@ -298,7 +306,7 @@ body {
   transform: rotate(8deg);
 }
 .content-div p {
-  font-size: 22px;
+  font-size: 20px;
   width: 50%;
   margin-left: 4%;
 }
@@ -728,7 +736,7 @@ body {
   padding-top: 0.5%;
   /* border: solid 8px #84b4fe; */
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #0f3c7a;
   color: #ffffff;
   width: 40%;
@@ -750,8 +758,10 @@ body {
   color: white;
   text-decoration: underline;
 }
+
 .faq-expanded
 {
+  margin-top: -1%;
   position: relative;
   font-size: 16px !important;
   border: solid 6px #4bd0fb;
@@ -1006,6 +1016,7 @@ hr {
   /* border: solid 1px black; */
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 70%;
   margin: auto;
   margin-bottom: 1% !important;
@@ -1138,6 +1149,36 @@ hr {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+#gatsby_logo
+{
+  width: 34%;
+  height: 20%;
+}
+#ibm_logo
+{
+  width: 150px;
+  height: 60px;
+}
+#zulip_logo
+{
+  height: 150px;
+  width: 150px;
+}
+#jb_logo
+{
+  width: 120px;
+  height: 130px;
+}
+#sketch_logo
+{
+  height: 109px;
+  width: 120px;
+}
+#cb_logo
+{
+  width: 120px;
+  height: 120px;
 }
 .logoDiv {
   display: flex;
