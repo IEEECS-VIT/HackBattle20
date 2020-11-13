@@ -131,11 +131,11 @@
   {
     margin-top: -7%;
   }
-  .track-buttons
+  /* .track-buttons
   {
     min-height: 30px !important;
     font-size: 14px;
-  }
+  } */
   /* #site-footer
   {
     display: none !important;
@@ -1020,7 +1020,7 @@ hr {
     flex-direction: column;
     /* margin-top: -6% !important; */
     align-items: center;
-    width: 70%;
+    width: 50%;
     margin: auto;
     /* margin-bottom: 1% !important; */
   }
@@ -1037,12 +1037,12 @@ hr {
   border-radius: 24px;
 }
 .track-image-mobile {
-    max-width: 270px;
-    max-height: 135px;
+    max-width: 300px;
+    max-height: 150px;
     /* margin-left: 20%; */
     justify-content:center;
     border-radius: 24px;
-    margin-bottom: 0.5%;
+    margin-bottom: 3%;
   }
 .track-text {
   font-size: 20px;
