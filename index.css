@@ -1160,25 +1160,27 @@ hr {
   width: 150px;
   height: 60px;
 }
-#zulip_logo
-{
-  height: 150px;
-  width: 150px;
-}
-#jb_logo
-{
-  width: 120px;
-  height: 130px;
-}
-#sketch_logo
-{
-  height: 109px;
-  width: 120px;
-}
+
 #cb_logo
 {
   width: 120px;
   height: 120px;
+}
+#az_logo{
+    width: 150px;
+    height: 120px;
+}
+#hi_logo{
+    width: 20%;
+    height: 28%;
+}
+#Taskade_logo{
+    width: 31%;
+    height: 20%;
+}
+#bal_logo{
+    width: 150px;
+    height: 140px;
 }
 .logoDiv {
   display: flex;
