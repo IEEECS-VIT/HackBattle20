@@ -1146,6 +1146,11 @@ hr {
         margin-top:1%;
     }
 }
+@media only screen and (min-width:921px) and (max-width:1008px){
+    .regbutton{
+        margin-top: 2% !important;
+    }
+}
 .github-logo-style {
   width: 270px;
   height: 100px;
@@ -1168,7 +1173,6 @@ hr {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 
 #cb_logo
 {
