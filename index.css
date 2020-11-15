@@ -144,15 +144,33 @@
     min-height: 35px !important;
     font-size: 16px;
   }
-  /* #site-footer
+  #cb_logo
   {
-    display: none !important;
-    height: 0 !important;
+    width: 70px !important;
+    height: 70px !important;
   }
-  #fp-nav ul li:nth-child(10) a
-  {
-    display: none !important;
-  } */
+  #az_logo{
+      width: 120px !important;
+      height: 90px !important;
+  }
+  #hi_logo{
+      height: 110px !important;
+      width: 140px !important;
+      /* width: 20%; */
+      /* height: 28%; */
+  }
+  #Taskade_logo{
+      /* width: 31%; */
+      width: 200px !important;
+      height: 100px !important;
+      /* max-width: 200px; */
+      /* max-height: 150px; */
+      /* height: 20%; */
+  }
+  #bal_logo{
+      width: 125px;
+      height: 95px;
+  }
 }
 @media only screen and (max-width: 630px) {
   .mobile-prize-box-laptop{
@@ -1146,20 +1164,11 @@ hr {
 }
 .mobile-logoDiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-#gatsby_logo
-{
-  width: 34%;
-  height: 20%;
-}
-#ibm_logo
-{
-  width: 150px;
-  height: 60px;
-}
+
 
 #cb_logo
 {
@@ -1171,16 +1180,22 @@ hr {
     height: 120px;
 }
 #hi_logo{
-    width: 20%;
-    height: 28%;
+    height: 150px;
+    width: 170px;
+    /* width: 20%; */
+    /* height: 28%; */
 }
 #Taskade_logo{
-    width: 31%;
-    height: 20%;
+    /* width: 31%; */
+    width: 300px;
+    height: 175px;
+    /* max-width: 200px; */
+    max-height: 150px;
+    /* height: 20%; */
 }
 #bal_logo{
-    width: 150px;
-    height: 140px;
+    width: 165px;
+    height: 145px;
 }
 .logoDiv {
   display: flex;
