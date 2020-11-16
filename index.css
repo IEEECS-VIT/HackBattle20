@@ -226,7 +226,13 @@ body {
   background-size: 700px 738px;
   background-repeat: no-repeat;
 }
-
+#main-logo
+{
+  width: 150px;
+  height: 48px;
+  margin-top: -3%;
+  z-index: -1;
+}
 .section-header {
   position: relative;
   z-index: 2;
