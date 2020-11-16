@@ -134,6 +134,11 @@
   }
   .mobile-section-inner {
     display: block;
+    margin-top: -12%;
+  }
+  #main-logo
+  {
+    display: block !important;
   }
   #inner-mobile-home
   {
@@ -196,6 +201,10 @@
   {
     display: none;
   }
+  #main-logo
+  {
+    display: none !important;
+  }
   /* #site-footer
   {
     display: table;
@@ -207,9 +216,9 @@
     margin-top: -5%;
   }
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 500px){
   .mobile-section-inner{
-    margin-top: -10% !important;
+    margin-top: -20% !important;
   }
 }
 
@@ -219,19 +228,21 @@ body {
 
 #mobile-home-inner
 {
-  border: solid 1px black;
+  /* border: solid 1px black; */
   background-image: url('./assets/rocket_cropped.png');
-  background-position: 85% -4%;
+  background-position: 85% -10%;
   /* background-position-x: 50px; */
-  background-size: 700px 738px;
+  background-size: 620px 598px;
   background-repeat: no-repeat;
 }
 #main-logo
 {
+  position: relative;
+  margin-left: 3%;
   width: 150px;
   height: 48px;
-  margin-top: -3%;
-  z-index: -1;
+  margin-top: -3.5%;
+  z-index: 99;
 }
 .section-header {
   position: relative;
@@ -655,6 +666,7 @@ body {
   .contact-head {
     font-size: 22px !important;
   }
+
 }
 @media only screen and (max-width: 680px) {
   .contact-head {
@@ -987,7 +999,11 @@ hr {
   .sch-text-mobile {
     height: 90%;
   }
+  .mobile-section-inner{
+    margin-top: -10% !important;
+  }
 }
+
 @media (max-width: 540px) {
   .daybutton-mobile {
     width: 80px !important;
