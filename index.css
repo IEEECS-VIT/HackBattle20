@@ -251,10 +251,10 @@ body {
 }
 
 .mobile-section-inner {
-  margin-top: -20% !important;
+  /* margin-top: -20% !important; */
   /* text-align: center; */
   /* border: solid 1px black; */
-  height: 80%;
+  height: 90%;
 }
 
 .tilt-div {
@@ -333,7 +333,7 @@ body {
   margin-left: 4%;
 }
 .mobile-content-div p {
-  font-size: 16px;
+  font-size: 14px;
   /* width: 50%; */
   margin-top: 8%;
 }
@@ -961,6 +961,7 @@ hr {
   .daybutton-mobile {
     width: 100px !important;
     height: 40px;
+    font-size: 13px;
   }
   .sch-text-mobile {
     height: 90%;
@@ -1556,11 +1557,12 @@ hr {
 }
 #site-footer
 {
+  margin-top: 0.5%;
   display: table;
   width: 100%;
   flex-direction: row;
   align-items: center;
-  height: 30vh !important;
+  max-height: 30vh !important;
   background-color: #222;
   color: white;
   padding: 2% 2% 2% 2%;
