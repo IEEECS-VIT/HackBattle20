@@ -1715,7 +1715,7 @@ hr {
   /* border: solid 1px black; */
   width: 65%;
   /* margin-left: 8%; */
-  margin: auto;
+  margin: auto !important;
 }
 .accordion-desktop
 {
