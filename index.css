@@ -207,9 +207,24 @@
     margin-top: -5%;
   }
 }
+@media only screen and (max-width: 380px){
+  .mobile-section-inner{
+    margin-top: -10% !important;
+  }
+}
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+#mobile-home-inner
+{
+  border: solid 1px black;
+  background-image: url('./assets/rocket_cropped.png');
+  background-position: 85% -10%;
+  /* background-position-x: 50px; */
+  background-size: 700px 668px;
+  background-repeat: no-repeat;
 }
 
 .section-header {
@@ -1297,58 +1312,7 @@ hr {
   height: 72px;
   width: 60px;
 }
-/* .prizes-background-dots
-{
-    position: absolute;
-    right: 15%;
-    width: 450px;
-    height: 290px;
-} */
-/* #fp-nav span{
-    background-color: white !important;
-    border: 0.01rem solid black !important;
-    display: none;
-}
-.navbar{
-    height: 10vmax;
-    color: #696969;
-    
-}
-.navbar-brand {
-    box-shadow: 12px 6px;
-    letter-spacing: 0.3rem;
-    border-radius: 5px;
-    font-size: 25px !important;
-    margin-top: -5vmin;
-}
-.nav-link{
-    
-    font-size: 20px !important;
-}
-.nav-item:hover{
-    background-color: rgba(255,255,255,0.075);
-    border-radius: 5px;
-}
-@media (min-width: 576px) {
-    .navbar{
-        height: 9vmax;
-    }
 
-}
-
-.navbar-toggler{
-    background: transparent;
-    border: 1px solid black;
-}
-
-.navbar-toggler-icon{
-    color: black;
-    background: black;
-    height: 2px;
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
-} */
 .form-group {
   border: 0.5px solid #696969;
   margin-top: 2%;
