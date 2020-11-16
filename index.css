@@ -1725,10 +1725,11 @@ hr {
     .card-header{
         height: 10vh;
     }
+    .accordion>.card>.card-header{
+        height: 10vh;
+    }
 }
-.accordion>.card>.card-header{
-    height: 10vh;
-}
+
 
 .card-header
 {
@@ -1754,10 +1755,10 @@ hr {
   max-height: 270px;
   margin-top:2%;
 }
-.mobile-faq{
+/* .mobile-faq{
     width: 65%;
     text-align: center;
-}
+} */
 
 
 
