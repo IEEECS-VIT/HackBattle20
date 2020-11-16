@@ -113,6 +113,10 @@
   {
     margin-top: -5% !important;
   }
+  .heading
+  {
+    font-size: 34px !important;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .track-text {
@@ -645,6 +649,7 @@ body {
   }
 }
 .regbutton {
+  position: relative;
   margin-left: 8%;
   /* margin-top: 2%; */
   color: #ffffff !important;
