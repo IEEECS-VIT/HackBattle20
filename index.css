@@ -231,7 +231,7 @@ body {
   /* border: solid 1px black; */
   background-image: url('./assets/rocket_cropped.png');
   background-position-x: 85%;
-  background-position-y: 480%;
+  background-position-y:180%;
   /* background-position-x: 50px; */
   background-size: 580px 558px;
   background-repeat: no-repeat;
