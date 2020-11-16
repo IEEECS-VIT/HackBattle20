@@ -12,6 +12,20 @@ $(document).ready(function () {
   $("#fp-nav ul li:nth-child(2) a").click();
   $("#fp-nav ul li:nth-child(1) a").click();
 
+
+  // $(document).scroll(function()
+  // {
+  //   console.log("Scrolled");
+  //   // if($('#home').hasClass('active'))
+  //   // {
+  //   //   $('#main_logo').css('display','block');
+
+  //   // }
+  //   // else
+  //   //   $('#main_logo').css('display','none !important');
+  // });
+
+
   $( window ).resize(function() {
     // $( "#log" ).append( "<div>Handler for .resize() called.</div>" );
     // console.log(initWd);
@@ -324,3 +338,13 @@ function myFunction(){
 }
 
 
+// document.getElementById("fullpage").addEventListener("wheel", scrollfunc);
+// function scrollfunc()
+// {
+//   console.log('Scroll');
+//   if($('#home').hasClass('active'))
+//     $('#main-logo').show();
+//     console.log('show');
+//   else
+//   $('#main-logo').hide();
+// }
