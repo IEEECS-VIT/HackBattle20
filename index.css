@@ -1718,10 +1718,16 @@ hr {
   margin: auto !important;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (min-width:320px) and (max-width:500px){
     .card-header button{
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
+    .card-header{
+        height: 10vh;
+    }
+}
+.accordion>.card>.card-header{
+    height: 10vh;
 }
 
 .card-header
