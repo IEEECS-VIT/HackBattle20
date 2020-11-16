@@ -929,9 +929,9 @@ body {
 h6 {
   margin-top: 2.5%;
 }
-#ques1 {
-  margin-left: 5% !important;
-}
+/* #ques1 {
+  display: inline-block;
+} */
 .daybutton {
   transition: all 0.2s;
   margin-left: 4%;
@@ -1713,8 +1713,16 @@ hr {
 .accordion
 {
   /* border: solid 1px black; */
-  width: 60%;
+  width: 65%;
+  /* margin-left: 8%; */
+  margin: auto;
 }
+@media only screen and (max-width:500px){
+    .card-header button{
+        font-size: 15px !important;
+    }
+}
+
 .card-header
 {
   background-color: #214a81;
@@ -1737,6 +1745,11 @@ hr {
 .card
 {
   max-height: 270px;
+  margin-top:2%;
+}
+.mobile-faq{
+    width: 65%;
+    text-align: center;
 }
 
 
