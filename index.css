@@ -229,12 +229,16 @@ body {
 #mobile-home-inner
 {
   /* border: solid 1px black; */
-  background-image: url('./assets/rocket_cropped.png');
+  background-image: url('./assets/rocket.png') !important;
+  background-position-x: 68%;
+  background-position-y: 10%;
+  background-size: 1092px 700px;
+  /* background-image: url('./assets/rocket_cropped.png');
   background-position-x: 85%;
   background-position-y:180%;
-  /* background-position-x: 50px; */
-  background-size: 580px 558px;
-  background-repeat: no-repeat;
+  background-position-x: 50px;
+  background-size: 700px 1092px;
+  background-repeat: no-repeat; */
 }
 #mobile-caption-div
 {
