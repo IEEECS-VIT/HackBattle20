@@ -230,10 +230,24 @@ body {
 {
   /* border: solid 1px black; */
   background-image: url('./assets/rocket_cropped.png');
-  background-position: 85% -10%;
+  background-position-x: 85%;
+  background-position-y: 480%;
   /* background-position-x: 50px; */
-  background-size: 620px 598px;
+  background-size: 580px 558px;
   background-repeat: no-repeat;
+}
+#mobile-caption-div
+{
+  padding-left: 3.5%;
+  /* border: solid 1px red; */
+  max-width: 45%;
+  margin-top: -30%;
+  /* height: 100%; */
+  /* vertical-align: middle; */
+}
+#mobile-caption-div p:first-child
+{
+  font-size: 24px;
 }
 #main-logo
 {
@@ -700,7 +714,7 @@ body {
   outline: 0 !important;
   /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
-.regbutton-mobile {
+/* .regbutton-mobile {
     margin-left: 8%;
     margin-top: 113%;
     color: #ffffff !important;
@@ -711,6 +725,24 @@ body {
     line-height: 20px;
     border: none;
     min-width: 165px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 25px;
+    background-color: #0f3c7a;
+    box-shadow: 0 4px 4px 2px #59d4fb;
+    outline: 0 !important;
+
+  } */
+.regbutton-mobile-new {
+    margin-left: -1.5%;
+    color: #ffffff !important;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    /* padding: 0 30px; */
+    line-height: 20px;
+    border: none;
+    min-width: 145px;
     position: absolute;
     z-index: 3;
     border-radius: 25px;
