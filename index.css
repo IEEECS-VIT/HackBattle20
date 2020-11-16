@@ -1717,23 +1717,7 @@ hr {
   /* margin-left: 8%; */
   margin: auto !important;
 }
-.accordion-desktop
-{
-  /* border: solid 1px black; */
-  width: 35%;
-  margin-left: 8%;
-  /* flex-direction: row; */
-  /* display: flex !important */
-  /* margin: auto; */
-}
-.accordion-desktop-2
-{
-  /* border: solid 1px black; */
-  width: 35%;
-  margin-left: 8%;
-  /* margin-top: 0%; */
-  /* margin: auto; */
-}
+
 @media only screen and (max-width:500px){
     .card-header button{
         font-size: 15px !important;
