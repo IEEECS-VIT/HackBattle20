@@ -193,7 +193,7 @@ function validateBeforeSend()
   var name=document.getElementById('m-contact_name').value;
   var mail=document.getElementById('m-mail').value;
   var body=document.getElementById('m-body').value;
-  if(name==='' || name==='' || body==='')
+  if(name==='' || mail==='' || body==='')
     alert("Please fill all fields before submitting your message.");
   else
     sendMobileEmail();
@@ -203,8 +203,13 @@ function validateBeforeSend()
   var name=document.getElementById('contact_name').value;
   var mail=document.getElementById('mail').value;
   var body=document.getElementById('body').value;
-  if(name==='' || name==='' || body==='')
+  if(name==='' || mail==='' || body==='')
     alert("Please fill all fields before submitting your message.");
+  else if (/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(mail) == false) 
+  {
+    alert("Please Enter a Valid Email ID");
+    return false;
+  }
   else
     sendEmail();
 }
@@ -220,7 +225,7 @@ function sendEmail() {
     From: "vithack.crisis@gmail.com",
     Subject: "This is the subject",
     Body: "--->Body: \n" + b + "\n" + "--->E-Mail: " + e,
-  }).then((message) => alert("mail has been sent sucessfully"));
+  }).then((message) => alert("Mail has been sent sucessfully."));
 }
 function sendMobileEmail() {
   // var n=document.getElementById("name").value;
