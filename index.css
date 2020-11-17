@@ -159,8 +159,8 @@
     height: 70px !important;
   }
   #az_logo{
-      width: 120px !important;
-      height: 90px !important;
+      width: 100px !important;
+      height: 75px !important;
   }
   #hi_logo{
       height: 110px !important;
@@ -177,9 +177,43 @@
       /* height: 20%; */
   }
   #bal_logo{
-      width: 125px;
-      height: 95px;
+      width: 125px !important;
+      height: 95px !important;
   }
+}
+@media only screen and (max-height: 800px){
+  #cb_logo
+  {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #az_logo{
+      width: 90px !important;
+      height: 60px !important;
+  }
+  #hi_logo{
+      height: 110px !important;
+      width: 12 0px !important;
+      /* width: 20%; */
+      /* height: 28%; */
+  }
+  #Taskade_logo{
+      /* width: 31%; */
+      width: 140px !important;
+      height: 70px !important;
+      /* max-width: 200px; */
+      /* max-height: 150px; */
+      /* height: 20%; */
+  }
+  #bal_logo{
+      width: 100px !important;
+      height: 76px !important;
+  }
+  .mobile-github-logo-style {
+    width: 150px;
+    height: 52px;
+  }
+
 }
 @media only screen and (max-width: 630px) {
   .mobile-prize-box-laptop{
@@ -1164,18 +1198,18 @@ hr {
   width: 270px;
   height: 100px;
 }
-.matic-logo-style {
+/* .matic-logo-style {
   width: 300px;
   height: 72px;
-}
+} */
 .mobile-github-logo-style {
   width: 175.5px;
   height: 65px;
 }
-.mobile-matic-logo-style {
+/* .mobile-matic-logo-style {
   width: 175px;
   height: 40px;
-}
+} */
 .mobile-logoDiv {
   display: flex;
   flex-direction: row;
