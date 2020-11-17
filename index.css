@@ -223,6 +223,11 @@
   {
     margin-top: 33% !important;
   }
+  #mobile-about-placeholder
+  {
+    width: 175px !important;
+    height: 126px !important;
+  }
 
 }
 @media only screen and (max-width: 630px) {
@@ -1067,9 +1072,9 @@ hr {
     .mobile-content-div p{
         font-size: 12px !important;
     }
-    #mobile-about-placeholder{
+    /* #mobile-about-placeholder{
         width:250px;
-    }
+    } */
     #mobile-caption-div p:first-child
     {
         font-size: 20px;
