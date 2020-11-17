@@ -188,13 +188,18 @@ $(document).ready(function () {
 
 });
 
-function validateBeforeSend()
+function mobileValidateBeforeSend()
 {
   var name=document.getElementById('m-contact_name').value;
   var mail=document.getElementById('m-mail').value;
   var body=document.getElementById('m-body').value;
   if(name==='' || mail==='' || body==='')
     alert("Please fill all fields before submitting your message.");
+  else if (/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(mail) == false) 
+  {
+    alert("Please Enter a Valid Email ID");
+    return false;
+  }
   else
     sendMobileEmail();
 }
