@@ -1537,8 +1537,8 @@ hr {
 }
 @media only screen and (max-width:900px){
     #site-footer{
-        font-size: 12px !important;
-        height: 25vh !important;
+        font-size: 10px !important;
+        height: 26vh !important;
     }
     .about-footer{
         display:none !important;
