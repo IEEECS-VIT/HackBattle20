@@ -215,7 +215,7 @@
   }
   #main-logo
   {
-    margin-top: -3.5% !important;
+    margin-top: 12.5% !important;
   }
 }
 @media only screen and (max-width: 630px) {
@@ -265,16 +265,17 @@ body {
 @media only screen and (max-width: 380px){
   #mobile-home-inner
   {
-    /* height: 90%; */
+    height: 100% !important;
   }
 }
 #mobile-home-inner
 {
-  border: solid 1px black;
+  /* border: solid 1px black; */
   background-image: url('./assets/rocket.png') !important;
   background-position-x: 68%;
-  background-position-y: 10%;
+  background-position-y: 20%;
   background-size: 1092px 700px;
+  background-repeat: no-repeat;
   /* background-image: url('./assets/rocket_cropped.png');
   background-position-x: 85%;
   background-position-y:180%;
