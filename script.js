@@ -13,17 +13,7 @@ $(document).ready(function () {
   $("#fp-nav ul li:nth-child(1) a").click();
 
 
-  // $(document).scroll(function()
-  // {
-  //   console.log("Scrolled");
-  //   // if($('#home').hasClass('active'))
-  //   // {
-  //   //   $('#main_logo').css('display','block');
-
-  //   // }
-  //   // else
-  //   //   $('#main_logo').css('display','none !important');
-  // });
+  
 
 
   $( window ).resize(function() {
@@ -197,70 +187,7 @@ $(document).ready(function () {
   });
 
 });
-// var burgerMenu = function() {
 
-//     $('body').on('click', '.js-fh5co-nav-toggle', function(event){
-
-//         event.preventDefault();
-
-//         if ( $('#ftco-nav').is(':visible') ) {
-//             $(this).removeClass('active');
-//         } else {
-//             $(this).addClass('active');
-//         }
-
-//     });
-
-// };
-// burgerMenu();
-
-// var onePageClick = function() {
-
-//     $(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
-//     event.preventDefault();
-
-//     var href = $.attr(this, 'href');
-
-//     $('html, body').animate({
-//         scrollTop: $($.attr(this, 'href')).offset().top - 70
-//     }, 500, function() {
-//         // window.location.hash = href;
-//     });
-//     });
-
-// };
-
-// onePageClick();
-
-// var carousel = function() {
-//     $('.home-slider').owlCarousel({
-//     loop:true,
-//     autoplay: true,
-//     margin:0,
-//     animateOut: 'fadeOut',
-//     animateIn: 'fadeIn',
-//     nav:false,
-//     autoplayHoverPause: false,
-//     items: 1,
-//     navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
-//     responsive:{
-//       0:{
-//         items:1
-//       },
-//       600:{
-//         items:1
-//       },
-//       1000:{
-//         items:1
-//       }
-//     }
-//     });
-// };
-// carousel();
-
-// $('#dropdown04').on('show.bs.dropdown', function () {
-//   console.log('show');
-// });
 function validateBeforeSend()
 {
   var name=document.getElementById('m-contact_name').value;

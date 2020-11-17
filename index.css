@@ -718,25 +718,7 @@ body {
   outline: 0 !important;
   /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
-/* .regbutton-mobile {
-    margin-left: 8%;
-    margin-top: 113%;
-    color: #ffffff !important;
-    height: 40px;
-    font-size: 16px;
-    text-align: center;
-    padding: 0 30px;
-    line-height: 20px;
-    border: none;
-    min-width: 165px;
-    position: absolute;
-    z-index: 3;
-    border-radius: 25px;
-    background-color: #0f3c7a;
-    box-shadow: 0 4px 4px 2px #59d4fb;
-    outline: 0 !important;
 
-  } */
 .regbutton-mobile-new {
     margin-left: -1.5%;
     color: #ffffff !important;
@@ -905,16 +887,7 @@ body {
   }
 }
 
-/* .ques1{
-    background-color: #0F3C7A;
-    color: #ffffff;
-    width: 30%;
-    height: 3em !important;
-    text-align: center;
-    margin-left: 20% !important;
-    margin: 1%;
-    display: inline-block;
-} */
+
 .faq-div {
   /* border: solid 1px black; */
   display: flex;
@@ -1169,57 +1142,14 @@ hr {
     font-size: 14px;
     margin-top: 1.5%;
 }
-@media only screen and (min-width:600px) and (max-width:750px){
-    /* .track-image-mobile{
-        margin-left: 2%;
-        max-width: 450px;
-        max-height: 200px;
-    margin-bottom: 1.5%;
 
-
-    } */
-    /* .track-text-mobile{
-        font-size: 15px;
-        margin-top:1%;
-    } */
-}
-@media only screen and (min-width:500px) and (max-width:600px){
-    /* .track-image-mobile{
-        margin-left: 2%;
-        max-height: 186px;
-        max-width: 450px;
-    margin-bottom: 1.5%;
-
-
-    } */
-    /* .track-text-mobile{
-        font-size: 14px;
-        margin-top:1%;
-    } */
-}
 @media only screen and (min-width:400px) and (max-width:500px){
-    /* .track-image-mobile{
-        margin-left: 2%;
-        max-height: 174px;
-        max-width: 450px;
-    margin-bottom: 1.5%;
-
-
-    } */
     .track-text-mobile{
         font-size: 13px;
         margin-top:1%;
     }
 }
 @media only screen and (min-width:320px) and (max-width:400px){
-    /* .track-image-mobile{
-        margin-left: 2%;
-        max-height: 150px;
-        max-width: 450px;
-    margin-bottom: 1%;
-
-
-    } */
     .track-text-mobile{
         font-size: 10px;
         margin-top:1%;
