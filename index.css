@@ -1062,6 +1062,27 @@ hr {
     margin-top: -10% !important;
   }
 }
+@media only screen and (min-width: 315px) and (max-width:330px){
+    
+    .mobile-content-div p{
+        font-size: 12px !important;
+    }
+    #mobile-about-placeholder{
+        width:250px;
+    }
+    #mobile-caption-div p:first-child
+    {
+        font-size: 20px;
+    }
+    .tracks-header-mobile{
+        font-size: 13px !important;
+    }
+    .track-buttons{
+        font-size: 13px !important;
+        min-height: 30px !important;
+    }
+    
+}
 
 @media (max-width: 540px) {
   .daybutton-mobile {
