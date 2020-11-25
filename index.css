@@ -1237,8 +1237,8 @@ hr {
     }
 }
 .github-logo-style {
-  width: 270px;
-  height: 100px;
+  width: 230px;
+  height: 70px;
 }
 /* .matic-logo-style {
   width: 300px;
@@ -1774,6 +1774,11 @@ hr {
     width: 65%;
     text-align: center;
 } */
+.sponsors-head{
+    color: #0f3c7a;
+    font-size: 22px;
+    text-align: center !important;
+}
 
 
 
