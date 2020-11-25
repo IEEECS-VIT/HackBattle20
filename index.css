@@ -1778,6 +1778,12 @@ hr {
     color: #0f3c7a;
     font-size: 22px;
     text-align: center !important;
+    width: 100%;
+    font-weight: bold;
+}
+.logoDiv{
+    margin-top: 0% !important;
+    height: 35% !important;
 }
 
 
