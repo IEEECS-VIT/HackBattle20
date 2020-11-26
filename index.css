@@ -1275,12 +1275,15 @@ hr {
     /* height: 28%; */
 }
 #tez_logo{
-    height: 60px;
-    width: 100px;
+    height: 55px;
+    width: 120px;
+    /* margin-left: 0.4%; */
 }
 #por_logo{
-    height: 80px;
-    width: 170px;
+    height: 60px;
+    width: 180px;
+    margin-top: 0.5%;
+    text-align: center;
 }
 #Taskade_logo{
     /* width: 31%; */
