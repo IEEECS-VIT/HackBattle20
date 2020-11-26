@@ -168,6 +168,10 @@
       /* width: 20%; */
       /* height: 28%; */
   }
+  #dev_logo-mobile{
+      height: 40px !important;
+      width: 100px !important;
+  }
   #Taskade_logo{
       /* width: 31%; */
       width: 200px !important;
@@ -1282,8 +1286,22 @@ hr {
 #por_logo{
     height: 60px;
     width: 180px;
-    margin-top: 0.5%;
+    /* margin-top: 0.5%; */
     text-align: center;
+}
+@media only screen and(max-width: 920px){
+    #hi_logo{
+        height: 120px;
+        width: 140px;
+    }
+    #tez_logo{
+        height: 50px !important;
+        width: 170px !important;
+    }
+    #por_logo{
+        height: 45px !important;
+        width: 165px !important;
+    }
 }
 #Taskade_logo{
     /* width: 31%; */
