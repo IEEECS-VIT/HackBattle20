@@ -1779,14 +1779,21 @@ hr {
     font-size: 22px;
     text-align: center !important;
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
+    /* border: solid 1px red; */
 }
 .logoDiv{
     margin-top: 0% !important;
     height: 35% !important;
+    /* border: solid 1px black; */
 }
 
-
+#plat-header
+{
+  background: -webkit-linear-gradient(#E5E4E2, #777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
