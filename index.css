@@ -170,19 +170,40 @@
   }
   #dev_logo-mobile{
       height: 45px !important;
-      width: 170px !important;
+      width: 180px !important;
+  }
+  #jetbrains_logo{
+      height: 50px !important;
+      width: 40px !important;
   }
   #Taskade_logo{
       /* width: 31%; */
-      width: 160px !important;
-      height: 80px !important;
+      width: 150px !important;
+      height: 60px !important;
       /* max-width: 200px; */
       /* max-height: 150px; */
       /* height: 20%; */
   }
+  .matic-logo-style{
+      height: 60px !important;
+      width: 152px !important;
+  }
+  #tez_logo{
+      height: 45px !important;
+      width: 100px !important;
+  }
+  #por_logo{
+      height: 46px !important;
+      width: 100px !important;
+      text-align: center;
+  }
   #bal_logo{
-      width: 125px !important;
-      height: 95px !important;
+      width: 100px !important;
+      height: 50px !important;
+  }
+  #hi_logo{
+      height: 90px !important;
+      width: 85px !important;
   }
   #silver-div
 {
