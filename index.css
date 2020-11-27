@@ -170,7 +170,7 @@
   }
   #dev_logo-mobile{
       height: 40px !important;
-      width: 100px !important;
+      width: 120px !important;
   }
   #Taskade_logo{
       /* width: 31%; */
@@ -1294,11 +1294,11 @@ hr {
         height: 120px;
         width: 140px;
     }
-    #tez_logo{
+    .tez_logo{
         height: 50px !important;
         width: 170px !important;
     }
-    #por_logo{
+    .por_logo{
         height: 45px !important;
         width: 165px !important;
     }
