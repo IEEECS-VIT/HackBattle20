@@ -56,9 +56,13 @@
   .prizes-content-div {
     transform: rotate(8deg);
     flex-direction: column-reverse;
-    margin-top: -2% !important;
+    margin-top: -4% !important;
     /* border: solid 1px black; */
     height: 95% !important;
+  }
+  #prize-button
+  {
+    right: 4% !important;
   }
   .prizes-box {
     transform: rotate(0deg) !important;
@@ -398,6 +402,7 @@ body {
 
 .tilt-div {
   position: relative;
+  /* text-align: center; */
   z-index: 1;
   margin-left: -10%;
   /* padding-left: 5%; */
@@ -1137,6 +1142,10 @@ hr {
   .time-mobile {
     font-size: 14px;
   }
+  .mobile-prizes-box
+  {
+    margin-top: 5% !important;
+  }
 }
 @media (max-width: 325px) {
   .timeline-mobile {
@@ -1370,6 +1379,20 @@ hr {
   vertical-align: middle;
   transform: rotate(8deg);
 }
+#prize-button
+{
+  position: relative;
+  z-index: 3;
+  transform: rotate(8deg);
+  right: 2.5%;
+}
+#mobile-prize-button
+{
+  position: relative;
+  z-index: 3;
+  /* transform: rotate(8deg); */
+  /* right: 2%; */
+}
 .prizes-box:nth-child(2) {
   background-color: #dfeefb;
 }
@@ -1408,10 +1431,10 @@ hr {
   background-color: #fff;
   box-shadow: 0 2px 2px 2px #ccc;
   border-radius: 14px;
-  width: 70%;
-  height: 45%;
+  width: 60%;
+  height: 35%;
   min-height: 100px;
-  margin-top: 5% !important;
+  /* margin-top: 5% !important; */
   margin-bottom: 5% !important;
   min-width: 220px;
   max-width: 300px !important;
