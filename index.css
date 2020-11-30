@@ -256,6 +256,10 @@
       margin-top: -12px !important;
       height: 28px !important;
   }
+  .matic-logo-style{
+      height: 35px !important;
+      width: 120px !important;
+  }
   #tez_logo{
       height: 28px !important;
   }
@@ -407,6 +411,11 @@ body {
   background-size: 175px, 70px;
   background-position: calc(50% - 80px) 50%;
   background-position-y: -15% !important;
+}
+@media only screen and (max-width: 400px){
+    .mobile-section-header{
+        font-size: 38px !important;
+    }
 }
 
 .section-inner {
