@@ -68,11 +68,11 @@
     transform: rotate(0deg) !important;
     margin-top: 3.5%;
     margin-bottom: 3.5%;
-    font-size: 36px !important;
+    font-size: 24px !important;
   }
   .prize-box-laptop {
-    width: 96px;
-    height: 80px;
+    width: 78px;
+    height: 65px;
     top: -40% !important;
   }
   .prize-back {
@@ -1145,6 +1145,7 @@ hr {
   .mobile-prizes-box
   {
     margin-top: 5% !important;
+    font-size: 20px !important;
   }
 }
 @media (max-width: 325px) {
@@ -1367,6 +1368,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-color: #fff;
   box-shadow: 0 2px 2px 2px #ccc;
   border-radius: 14px;
@@ -1375,9 +1377,14 @@ hr {
   min-width: 300px;
   color: #0f3c7a;
   font-weight: 500;
-  font-size: 44px;
+  font-size: 38px;
   vertical-align: middle;
   transform: rotate(8deg);
+}
+#prize-list li::before
+{
+  content: "\25CF";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #0f3c7a;
 }
 #prize-button
 {
@@ -1428,6 +1435,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-color: #fff;
   box-shadow: 0 2px 2px 2px #ccc;
   border-radius: 14px;
@@ -1440,7 +1448,7 @@ hr {
   max-width: 300px !important;
   color: #0f3c7a;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 26px;
   vertical-align: middle;
   /* transform: rotate(8deg); */
 }
