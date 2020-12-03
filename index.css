@@ -203,12 +203,12 @@
   }
   #tez_logo{
       height: 45px !important;
-      width: 100px !important;
+      width: 131px !important;
       /* margin-top:  3%; */
   }
   #por_logo{
       height: 46px !important;
-      width: 100px !important;
+      width: 138px !important;
       text-align: center;
       /* margin-top: 2%; */
   }
@@ -1374,11 +1374,11 @@ hr {
         height: 120px;
         width: 140px;
     }
-    .tez_logo{
+    #tez_logo{
         height: 50px !important;
         width: 170px !important;
     }
-    .por_logo{
+    #por_logo{
         height: 45px !important;
         width: 165px !important;
     }
