@@ -554,21 +554,21 @@ body {
 
 @media only screen and (min-width:724px) and (max-width:850px){
     
-    .regbutton-mobile{
-        margin-top: 60% !important;
+    #devfolio-apply-now-mobile{
+        /* margin-top: 60% !important; */
     }
     .home-text-mobile{
         margin-top: 36% !important;
     }
-    .regbutton{
+    #devfolio-apply-now{
         margin-top: 60% !important;
     }
     
 }
 @media only screen and (min-width:850px){
     
-    .regbutton-mobile{
-        margin-top: 60% !important;
+    #devfolio-apply-now-mobile{
+        /* margin-top: 60% !important; */
     }
     .home-text-mobile{
         margin-top: 36% !important;
@@ -585,24 +585,25 @@ body {
 
 @media only screen and (max-width:500px) and (min-width:440px){
     
-    .regbutton-mobile{
-        margin-top: 94% !important;
+    #devfolio-apply-now-mobile{
+        /* margin-top: 94% !important; */
         min-width:130px !important;
+        /* font-size: 30px !important; */
     }
     
 }
 @media only screen and (max-width:548px) and (min-width:500px){
     
-    .regbutton-mobile{
-        margin-top: 84% !important;
+    #devfolio-apply-now-mobile{
+        /* margin-top: 84% !important; */
         min-width:130px !important;
     }
     
 }
 @media only screen and (max-width:724px) and (min-width:548px){
     
-    .regbutton-mobile{
-        margin-top: 73% !important;
+    #devfolio-apply-now-mobile{
+        /* margin-top: 73% !important; */
         min-width:130px !important;
     }
     .logo-mobile{
@@ -612,9 +613,9 @@ body {
 }
 
 @media only screen and (max-width:320px) and (min-width:314px){
-    .regbutton-mobile{
+    #devfolio-apply-now-mobile{
         min-width: 120px !important;
-        margin-top: 127% !important;
+        /* margin-top: 127% !important; */
         /* margin-left: 5% !important; */
         width: 5% !important;
     }
@@ -628,8 +629,8 @@ body {
     
 }
 @media only screen and (max-width:440px) and (min-width:385px){
-    .regbutton-mobile{
-        margin-top: 103%  !important;
+    #devfolio-apply-now-mobile{
+        /* margin-top: 103%  !important; */
         min-width: 125px !important;
     }
     .logo-mobile{
@@ -638,10 +639,11 @@ body {
     
 }
 @media only screen and (max-width:385px) and (min-width:321px){
-    .regbutton-mobile{
+    #devfolio-apply-now-mobile{
         /* margin-top: 85%  !important; */
         min-width: 105px !important;
-        margin-top: 114% !important;
+        font-size: 13px !important;
+        /* margin-top: 114% !important; */
         /* margin-left: 3% !important; */
     }
     .timing-mobile{
@@ -823,7 +825,7 @@ body {
     width: 75% !important;
   }
 }
-.regbutton {
+#devfolio-apply-now {
   position: relative;
   margin-left: 8%;
   /* margin-top: 2%; */
@@ -843,7 +845,7 @@ body {
   /* transition: color 0.3s, background-image 0.5s, ease-in-out; */
 }
 
-.regbutton-mobile-new {
+#devfolio-apply-now-mobile {
     margin-left: -1.5%;
     color: #ffffff !important;
     height: 40px;
@@ -1306,7 +1308,7 @@ hr {
     }
 }
 @media only screen and (min-width:921px) and (max-width:1008px){
-    .regbutton{
+    #devfolio-apply-now{
         margin-top: 2% !important;
     }
 }
