@@ -241,13 +241,13 @@
   }
   #hi_logo{
       height: 110px !important;
-      margin-top: -38px;
+      margin-top: -49px;
       /* width: 120px !important; */
       /* width: 20%; */
       /* height: 28%; */
   }
   #Taskade_logo{
-      margin-top: -32px;
+      margin-top: -35px;
   }
   .matic-logo-style{
       margin-top: -22px !important;
@@ -271,6 +271,7 @@
   #bal_logo{
       width: 100px !important;
       height: 76px !important;
+      margin-top:-19%;
   }
   .mobile-github-logo-style {
     width: 150px;
@@ -1359,8 +1360,8 @@ hr {
 
 #cb_logo
 {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
 #az_logo{
     width: 150px;
