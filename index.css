@@ -860,9 +860,9 @@ body {
   position: relative;
   color: #0f3c7a;
   background-color: transparent; 
-  margin-left: -3%;
+  margin-left: -2.5%;
   z-index: 3;
-  min-width: 145px;
+  min-width: 200px;
   min-height: 40px;
   border-radius: 24px;
   border: solid 2px #0f3c7a;
