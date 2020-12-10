@@ -861,6 +861,7 @@ body {
   height: 50px;
   border-radius: 24px;
   border: solid 2px #0f3c7a;
+  outline:0 !important;
 }
 #discord-button-mobile{
   position: relative;
@@ -872,6 +873,8 @@ body {
   min-height: 40px;
   border-radius: 24px;
   border: solid 2px #0f3c7a;
+  outline:0 !important;
+
 }
 
 #devfolio-apply-now-mobile {
