@@ -13,8 +13,21 @@ $(document).ready(function () {
   $("#fp-nav ul li:nth-child(1) a").click();
 
 
-  
-
+  $('.track-buttons').click(function(){
+    if(!$('.modal').hasClass('show'))
+    {
+      // alert("modal is open");
+      // $('body').css('overflow-y', 'hidden');
+      $.fn.fullpage.setMouseWheelScrolling(false);
+      $.fn.fullpage.setAllowScrolling(false);
+    }
+    else
+    {
+      // $('body').css('overflow-y', 'unset');
+      $.fn.fullpage.setMouseWheelScrolling(true);
+      $.fn.fullpage.setAllowScrolling(true);
+    }
+  })
 
   $( window ).resize(function() {
     // $( "#log" ).append( "<div>Handler for .resize() called.</div>" );

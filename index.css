@@ -863,6 +863,9 @@ body {
   border: solid 2px #0f3c7a;
   outline:0 !important;
 }
+body.show {
+  overflow: hidden;
+}
 #discord-button-mobile{
   position: relative;
   color: #0f3c7a;
