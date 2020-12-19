@@ -1359,6 +1359,16 @@ hr {
   width: 175.5px;
   height: 65px;
 }
+#vitspot-logo
+{
+  height: 100px;
+  width: 100px;
+}
+#vitspot-logo-mobile
+{
+  height: 100px;
+  width: 100px;
+}
 /* .mobile-matic-logo-style {
   width: 175px;
   height: 40px;
