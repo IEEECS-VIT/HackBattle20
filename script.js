@@ -70,7 +70,7 @@ $(document).ready(function () {
     $("#fp-nav ul li:nth-child(8) a").click();
   });
   $("#contact-link").click(function () {
-    $("#fp-nav ul li:nth-child(10) a").click();
+    $("#fp-nav ul li:nth-child(9) a").click();
   });
 
   // For mobile sidebar
@@ -103,7 +103,7 @@ $(document).ready(function () {
     $('.closebtn').click();
   });
   $("#m-contact-link").click(function () {
-    $("#fp-nav ul li:nth-child(10) a").click();
+    $("#fp-nav ul li:nth-child(9) a").click();
     $('.closebtn').click();
   });
 

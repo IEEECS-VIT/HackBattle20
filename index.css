@@ -132,7 +132,7 @@
   }
 }
 /* @media only screen and (min-width: 319px) and (max-width: 361px){
-    #matic-logo-style-mobile{
+    #polygon-logo-style-mobile{
         height: 30px !important;
         width: 138px !important;
         
@@ -196,9 +196,9 @@
       /* max-height: 150px; */
       /* height: 20%; */
   }
-  .matic-logo-style{
+  .polygon-logo-style{
       height: 38px !important;
-      width: 146px !important;
+      /* width: 146px !important; */
       /* margin-top: 2%; */
   }
   #tez_logo{
@@ -249,16 +249,16 @@
   #Taskade_logo{
       margin-top: -35px;
   }
-  .matic-logo-style{
+  .polygon-logo-style{
       margin-top: -22px !important;
   }
   #por_logo{
       margin-top: -12px !important;
       height: 28px !important;
   }
-  .matic-logo-style{
+  .polygon-logo-style{
       height: 35px !important;
-      width: 120px !important;
+      /* width: 120px !important; */
   }
   #tez_logo{
       height: 28px !important;
@@ -1347,11 +1347,24 @@ hr {
         margin-top: 2% !important;
     }
 }
-.matic-logo-style {
-  width: 180px;
+.polygon-logo-style {
+  /* width: 180px; */
+  width: auto;
+  margin: auto;
   height: 50px;
 }
-/* .matic-logo-style {
+.filecoin-logo-style {
+  height: 70px;
+  margin: auto;
+  width: auto;
+}
+.celo-logo-style {
+  width: 250px;
+  margin: auto;
+  height: auto;
+}
+
+/* .polygon-logo-style {
   width: 300px;
   height: 72px;
 } */
@@ -1369,7 +1382,7 @@ hr {
   height: 100px;
   width: 100px;
 }
-/* .mobile-matic-logo-style {
+/* .mobile-polygon-logo-style {
   width: 175px;
   height: 40px;
 } */
